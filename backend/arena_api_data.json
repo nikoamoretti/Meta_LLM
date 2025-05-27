@@ -1,0 +1,148 @@
+{
+  "chatbot_arena": [
+    {
+      "model": "Gemini-Pro-Preview-05-06",
+      "scores": {
+        "arena_score": 1446
+      },
+      "source": "Chatbot Arena (Fallback)",
+      "votes": 6115,
+      "organization": "Google"
+    },
+    {
+      "model": "Gemini-Flash-Preview-05-20",
+      "scores": {
+        "arena_score": 1418
+      },
+      "source": "Chatbot Arena (Fallback)",
+      "votes": 3892,
+      "organization": "Google"
+    },
+    {
+      "model": "o1-16",
+      "scores": {
+        "arena_score": 1409
+      },
+      "source": "Chatbot Arena (Fallback)",
+      "votes": 7921,
+      "organization": "OpenAI"
+    },
+    {
+      "model": "o1-latest (2025-03-26)",
+      "scores": {
+        "arena_score": 1405
+      },
+      "source": "Chatbot Arena (Fallback)",
+      "votes": 10280,
+      "organization": "OpenAI"
+    },
+    {
+      "model": "o1-preview-02-24",
+      "scores": {
+        "arena_score": 1399
+      },
+      "source": "Chatbot Arena (Fallback)",
+      "votes": 14840,
+      "organization": "xAI"
+    },
+    {
+      "model": "o1-preview",
+      "scores": {
+        "arena_score": 1394
+      },
+      "source": "Chatbot Arena (Fallback)",
+      "votes": 15276,
+      "organization": "OpenAI"
+    },
+    {
+      "model": "Gemini-Flash-Preview-04-17",
+      "scores": {
+        "arena_score": 1387
+      },
+      "source": "Chatbot Arena (Fallback)",
+      "votes": 6938,
+      "organization": "Google"
+    },
+    {
+      "model": "DeepSeek-V3-0324",
+      "scores": {
+        "arena_score": 1368
+      },
+      "source": "Chatbot Arena (Fallback)",
+      "votes": 9741,
+      "organization": "DeepSeek"
+    },
+    {
+      "model": "GPT-4o-2025-04-14",
+      "scores": {
+        "arena_score": 1365
+      },
+      "source": "Chatbot Arena (Fallback)",
+      "votes": 6094,
+      "organization": "OpenAI"
+    },
+    {
+      "model": "Qwen-Turbos-20250416",
+      "scores": {
+        "arena_score": 1356
+      },
+      "source": "Chatbot Arena (Fallback)",
+      "votes": 5111,
+      "organization": "Tencent"
+    },
+    {
+      "model": "DeepSeek-R1",
+      "scores": {
+        "arena_score": 1354
+      },
+      "source": "Chatbot Arena (Fallback)",
+      "votes": 19339,
+      "organization": "DeepSeek"
+    },
+    {
+      "model": "Gemini-Flash-001",
+      "scores": {
+        "arena_score": 1351
+      },
+      "source": "Chatbot Arena (Fallback)",
+      "votes": 24928,
+      "organization": "Google"
+    },
+    {
+      "model": "Mistral-Medium-3",
+      "scores": {
+        "arena_score": 1343
+      },
+      "source": "Chatbot Arena (Fallback)",
+      "votes": 3327,
+      "organization": "Mistral"
+    },
+    {
+      "model": "GPT-4o-2025-04-16",
+      "scores": {
+        "arena_score": 1343
+      },
+      "source": "Chatbot Arena (Fallback)",
+      "votes": 6102,
+      "organization": "OpenAI"
+    },
+    {
+      "model": "Claude-3.5-Sonnet-17",
+      "scores": {
+        "arena_score": 1346
+      },
+      "source": "Chatbot Arena (Fallback)",
+      "votes": 29041,
+      "organization": "OpenAI"
+    },
+    {
+      "model": "Gemini-3-27B-it",
+      "scores": {
+        "arena_score": 1339
+      },
+      "source": "Chatbot Arena (Fallback)",
+      "votes": 12989,
+      "organization": "Google"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+version: '3.8'
+services:
+  db:
+    image: postgres:15
+    restart: always
+    environment:
+      POSTGRES_USER: meta_llm
+      POSTGRES_PASSWORD: meta_llm
+      POSTGRES_DB: meta_llm
+    ports:
+      - '5432:5432'
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  backend:
+    build: ./backend
+    command: uvicorn src.app.main:app --host 0.0.0.0 --port 8000 --reload
+    volumes:
+      - ./backend:/app
+    environment:
+      - DATABASE_URL=postgresql+psycopg2://meta_llm:meta_llm@db:5432/meta_llm
+    depends_on:
+      - db
+    ports:
+      - '8000:8000'
+
+  frontend:
+    build: ./frontend
+    volumes:
+      - ./frontend:/app
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost:8000
+    depends_on:
+      - backend
+    ports:
+      - '3000:3000'
+
+volumes:
+  pgdata: 

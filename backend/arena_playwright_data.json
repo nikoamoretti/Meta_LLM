@@ -1,0 +1,4792 @@
+{
+  "chatbot_arena_playwright": {
+    "math": [
+      {
+        "rank": "100",
+        "model": "Gemini-2.0-Flash-001",
+        "scores": {
+          "math_score": 1446.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:16.206175"
+      },
+      {
+        "rank": "1",
+        "model": "Gemini-2.5-Pro-Preview-05-06",
+        "scores": {
+          "math_score": 1446.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:16.230831"
+      },
+      {
+        "rank": "1",
+        "model": "Gemini-2.5-Flash-Preview-05-20",
+        "scores": {
+          "math_score": 1435.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:16.239173"
+      },
+      {
+        "rank": "1",
+        "model": "o4-mini-2025-04-16",
+        "scores": {
+          "math_score": 1410.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:16.253826"
+      },
+      {
+        "rank": "2",
+        "model": "Qwen3-32B",
+        "scores": {
+          "math_score": 1387.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:16.260774"
+      },
+      {
+        "rank": "3",
+        "model": "GPT-4.5-Preview",
+        "scores": {
+          "math_score": 1394.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:16.267273"
+      },
+      {
+        "rank": "3",
+        "model": "Qwen3-235B-A22B",
+        "scores": {
+          "math_score": 1372.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:16.274092"
+      },
+      {
+        "rank": "4",
+        "model": "Gemini-2.5-Flash-Preview-04-17",
+        "scores": {
+          "math_score": 1380.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:16.281745"
+      },
+      {
+        "rank": "4",
+        "model": "DeepSeek-R1",
+        "scores": {
+          "math_score": 1376.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:16.289988"
+      },
+      {
+        "rank": "4",
+        "model": "o3-mini-high",
+        "scores": {
+          "math_score": 1374.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:16.296507"
+      },
+      {
+        "rank": "5",
+        "model": "Grok-3-Preview-02-24",
+        "scores": {
+          "math_score": 1367.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:16.303240"
+      },
+      {
+        "rank": "6",
+        "model": "o3-mini",
+        "scores": {
+          "math_score": 1363.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:16.316935"
+      },
+      {
+        "rank": "6",
+        "model": "o1-preview",
+        "scores": {
+          "math_score": 1356.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:16.324607"
+      },
+      {
+        "rank": "6",
+        "model": "ChatGPT-4o-latest (2025-03-26)",
+        "scores": {
+          "math_score": 1356.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:16.331595"
+      },
+      {
+        "rank": "6",
+        "model": "DeepSeek-V3-0324",
+        "scores": {
+          "math_score": 1354.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:16.338106"
+      },
+      {
+        "rank": "6",
+        "model": "Qwen3-30B-A3B",
+        "scores": {
+          "math_score": 1350.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:16.344774"
+      },
+      {
+        "rank": "6",
+        "model": "Mistral Medium 3",
+        "scores": {
+          "math_score": 1341.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:16.351364"
+      },
+      {
+        "rank": "6",
+        "model": "Hunyuan-Turbos-20250416",
+        "scores": {
+          "math_score": 1335.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:16.357401"
+      },
+      {
+        "rank": "13",
+        "model": "Gemini-2.0-Flash-001",
+        "scores": {
+          "math_score": 1344.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:16.363435"
+      },
+      {
+        "rank": "13",
+        "model": "Qwen2.5-Max",
+        "scores": {
+          "math_score": 1342.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:16.369714"
+      },
+      {
+        "rank": "11",
+        "model": "Qwen-VL-Max-1119",
+        "scores": {
+          "math_score": 1375.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:17.120858"
+      },
+      {
+        "rank": "1",
+        "model": "Gemini-2.5-Pro-Preview-05-06",
+        "scores": {
+          "math_score": 1375.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:17.133544"
+      },
+      {
+        "rank": "2",
+        "model": "Gemini-2.5-Flash-Preview-05-20",
+        "scores": {
+          "math_score": 1318.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:17.139880"
+      },
+      {
+        "rank": "2",
+        "model": "ChatGPT-4o-latest (2025-03-26)",
+        "scores": {
+          "math_score": 1310.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:17.148945"
+      },
+      {
+        "rank": "3",
+        "model": "GPT-4.1-2025-04-14",
+        "scores": {
+          "math_score": 1283.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:17.162063"
+      },
+      {
+        "rank": "5",
+        "model": "Gemini-2.5-Flash-Preview-04-17",
+        "scores": {
+          "math_score": 1274.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:17.168268"
+      },
+      {
+        "rank": "5",
+        "model": "o4-mini-2025-04-16",
+        "scores": {
+          "math_score": 1270.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:17.174946"
+      },
+      {
+        "rank": "6",
+        "model": "GPT-4.5-Preview",
+        "scores": {
+          "math_score": 1256.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:17.181224"
+      },
+      {
+        "rank": "7",
+        "model": "GPT-4.1-mini-2025-04-14",
+        "scores": {
+          "math_score": 1236.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:17.187550"
+      },
+      {
+        "rank": "9",
+        "model": "Gemini-2.0-Flash-001",
+        "scores": {
+          "math_score": 1224.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:17.199302"
+      },
+      {
+        "rank": "9",
+        "model": "Gemini-1.5-Pro-002",
+        "scores": {
+          "math_score": 1222.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:17.205472"
+      },
+      {
+        "rank": "9",
+        "model": "Qwen2.5-VL-32B-Instruct",
+        "scores": {
+          "math_score": 1214.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:17.211813"
+      },
+      {
+        "rank": "11",
+        "model": "Claude 3.7 Sonnet",
+        "scores": {
+          "math_score": 1208.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:17.217898"
+      },
+      {
+        "rank": "13",
+        "model": "GPT-4o-2024-05-13",
+        "scores": {
+          "math_score": 1206.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:17.224533"
+      },
+      {
+        "rank": "13",
+        "model": "Gemini-1.5-Flash-002",
+        "scores": {
+          "math_score": 1206.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:17.249865"
+      },
+      {
+        "rank": "14",
+        "model": "Step-1o-Vision-32k (highres)",
+        "scores": {
+          "math_score": 1187.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:17.256800"
+      },
+      {
+        "rank": "14",
+        "model": "Llama-4-Maverick-17B-128E-Instruct",
+        "scores": {
+          "math_score": 1181.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:17.263024"
+      },
+      {
+        "rank": "16",
+        "model": "Claude 3.5 Sonnet (20240620)",
+        "scores": {
+          "math_score": 1189.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:17.269179"
+      },
+      {
+        "rank": "17",
+        "model": "Claude 3.5 Sonnet (20241022)",
+        "scores": {
+          "math_score": 1183.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:17.275324"
+      },
+      {
+        "rank": "18",
+        "model": "Qwen2.5-VL-72B-Instruct",
+        "scores": {
+          "math_score": 1171.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:17.281573"
+      },
+      {
+        "rank": "18",
+        "model": "Llama-4-Scout-17B-16E-Instruct",
+        "scores": {
+          "math_score": 1161.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:17.287500"
+      },
+      {
+        "rank": "20",
+        "model": "Gemini-2.0-Flash-Lite",
+        "scores": {
+          "math_score": 1159.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:17.293659"
+      },
+      {
+        "rank": "21",
+        "model": "Pixtral-Large-2411",
+        "scores": {
+          "math_score": 1154.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:17.299785"
+      },
+      {
+        "rank": "22",
+        "model": "Gemini-1.5-Pro-001",
+        "scores": {
+          "math_score": 1151.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:17.305950"
+      },
+      {
+        "rank": "22",
+        "model": "GPT-4-Turbo-2024-04-09",
+        "scores": {
+          "math_score": 1151.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:17.312873"
+      },
+      {
+        "rank": "24",
+        "model": "Qwen-VL-Max-1119",
+        "scores": {
+          "math_score": 1128.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:17.318591"
+      },
+      {
+        "rank": "26",
+        "model": "GPT-4.1-nano-2025-04-14",
+        "scores": {
+          "math_score": 1123.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:17.324747"
+      },
+      {
+        "rank": "27",
+        "model": "GPT-4o-2024-08-06",
+        "scores": {
+          "math_score": 1126.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:17.330905"
+      },
+      {
+        "rank": "27",
+        "model": "GPT-4o-mini-2024-07-18",
+        "scores": {
+          "math_score": 1124.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:17.336954"
+      },
+      {
+        "rank": "27",
+        "model": "Step-1V-32K",
+        "scores": {
+          "math_score": 1111.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:17.343807"
+      },
+      {
+        "rank": "27",
+        "model": "Qwen2-VL-72b-Instruct",
+        "scores": {
+          "math_score": 1111.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:17.350483"
+      },
+      {
+        "rank": "30",
+        "model": "Gemini-1.5-Flash-8B-001",
+        "scores": {
+          "math_score": 1106.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:17.357304"
+      },
+      {
+        "rank": "34",
+        "model": "Claude 3 Opus",
+        "scores": {
+          "math_score": 1076.0
+        },
+        "source": "Arena Playwright (math)",
+        "category": "math",
+        "scraped_at": "2025-05-27T14:13:17.363502"
+      }
+    ],
+    "overall": [
+      {
+        "rank": "101",
+        "model": "Gemini-2.0-Flash-001",
+        "scores": {
+          "overall_score": 1446.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:35.300858"
+      },
+      {
+        "rank": "1",
+        "model": "Gemini-2.5-Pro-Preview-05-06",
+        "scores": {
+          "overall_score": 1446.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:35.314438"
+      },
+      {
+        "rank": "2",
+        "model": "Gemini-2.5-Flash-Preview-05-20",
+        "scores": {
+          "overall_score": 1418.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:35.321280"
+      },
+      {
+        "rank": "2",
+        "model": "ChatGPT-4o-latest (2025-03-26)",
+        "scores": {
+          "overall_score": 1405.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:35.335040"
+      },
+      {
+        "rank": "3",
+        "model": "Grok-3-Preview-02-24",
+        "scores": {
+          "overall_score": 1399.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:35.342318"
+      },
+      {
+        "rank": "4",
+        "model": "GPT-4.5-Preview",
+        "scores": {
+          "overall_score": 1394.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:35.348890"
+      },
+      {
+        "rank": "6",
+        "model": "Gemini-2.5-Flash-Preview-04-17",
+        "scores": {
+          "overall_score": 1387.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:35.356046"
+      },
+      {
+        "rank": "8",
+        "model": "DeepSeek-V3-0324",
+        "scores": {
+          "overall_score": 1368.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:35.362415"
+      },
+      {
+        "rank": "8",
+        "model": "GPT-4.1-2025-04-14",
+        "scores": {
+          "overall_score": 1365.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:35.369359"
+      },
+      {
+        "rank": "8",
+        "model": "Hunyuan-Turbos-20250416",
+        "scores": {
+          "overall_score": 1356.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:35.375895"
+      },
+      {
+        "rank": "9",
+        "model": "DeepSeek-R1",
+        "scores": {
+          "overall_score": 1354.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:35.382680"
+      },
+      {
+        "rank": "10",
+        "model": "Gemini-2.0-Flash-001",
+        "scores": {
+          "overall_score": 1351.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:35.389756"
+      },
+      {
+        "rank": "10",
+        "model": "Mistral Medium 3",
+        "scores": {
+          "overall_score": 1343.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:35.396878"
+      },
+      {
+        "rank": "10",
+        "model": "o4-mini-2025-04-16",
+        "scores": {
+          "overall_score": 1343.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:35.403129"
+      },
+      {
+        "rank": "13",
+        "model": "Gemma-3-27B-it",
+        "scores": {
+          "overall_score": 1339.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:35.416469"
+      },
+      {
+        "rank": "13",
+        "model": "Qwen3-235B-A22B",
+        "scores": {
+          "overall_score": 1337.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:35.422728"
+      },
+      {
+        "rank": "14",
+        "model": "Qwen2.5-Max",
+        "scores": {
+          "overall_score": 1337.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:35.429007"
+      },
+      {
+        "rank": "14",
+        "model": "o1-preview",
+        "scores": {
+          "overall_score": 1331.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:35.435226"
+      },
+      {
+        "rank": "18",
+        "model": "Qwen3-32B",
+        "scores": {
+          "overall_score": 1324.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:35.441661"
+      },
+      {
+        "rank": "20",
+        "model": "o3-mini-high",
+        "scores": {
+          "overall_score": 1321.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:35.448124"
+      },
+      {
+        "rank": "11",
+        "model": "Qwen-VL-Max-1119",
+        "scores": {
+          "overall_score": 1375.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:36.190330"
+      },
+      {
+        "rank": "1",
+        "model": "Gemini-2.5-Pro-Preview-05-06",
+        "scores": {
+          "overall_score": 1375.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:36.203581"
+      },
+      {
+        "rank": "2",
+        "model": "Gemini-2.5-Flash-Preview-05-20",
+        "scores": {
+          "overall_score": 1318.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:36.209906"
+      },
+      {
+        "rank": "2",
+        "model": "ChatGPT-4o-latest (2025-03-26)",
+        "scores": {
+          "overall_score": 1310.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:36.216184"
+      },
+      {
+        "rank": "3",
+        "model": "GPT-4.1-2025-04-14",
+        "scores": {
+          "overall_score": 1283.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:36.240751"
+      },
+      {
+        "rank": "5",
+        "model": "Gemini-2.5-Flash-Preview-04-17",
+        "scores": {
+          "overall_score": 1274.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:36.247463"
+      },
+      {
+        "rank": "5",
+        "model": "o4-mini-2025-04-16",
+        "scores": {
+          "overall_score": 1270.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:36.273462"
+      },
+      {
+        "rank": "6",
+        "model": "GPT-4.5-Preview",
+        "scores": {
+          "overall_score": 1256.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:36.307595"
+      },
+      {
+        "rank": "7",
+        "model": "GPT-4.1-mini-2025-04-14",
+        "scores": {
+          "overall_score": 1236.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:36.315122"
+      },
+      {
+        "rank": "9",
+        "model": "Gemini-2.0-Flash-001",
+        "scores": {
+          "overall_score": 1224.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:36.333011"
+      },
+      {
+        "rank": "9",
+        "model": "Gemini-1.5-Pro-002",
+        "scores": {
+          "overall_score": 1222.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:36.339701"
+      },
+      {
+        "rank": "9",
+        "model": "Qwen2.5-VL-32B-Instruct",
+        "scores": {
+          "overall_score": 1214.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:36.345806"
+      },
+      {
+        "rank": "11",
+        "model": "Claude 3.7 Sonnet",
+        "scores": {
+          "overall_score": 1208.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:36.351805"
+      },
+      {
+        "rank": "13",
+        "model": "GPT-4o-2024-05-13",
+        "scores": {
+          "overall_score": 1206.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:36.358281"
+      },
+      {
+        "rank": "13",
+        "model": "Gemini-1.5-Flash-002",
+        "scores": {
+          "overall_score": 1206.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:36.364600"
+      },
+      {
+        "rank": "14",
+        "model": "Step-1o-Vision-32k (highres)",
+        "scores": {
+          "overall_score": 1187.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:36.370874"
+      },
+      {
+        "rank": "14",
+        "model": "Llama-4-Maverick-17B-128E-Instruct",
+        "scores": {
+          "overall_score": 1181.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:36.378137"
+      },
+      {
+        "rank": "16",
+        "model": "Claude 3.5 Sonnet (20240620)",
+        "scores": {
+          "overall_score": 1189.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:36.384271"
+      },
+      {
+        "rank": "17",
+        "model": "Claude 3.5 Sonnet (20241022)",
+        "scores": {
+          "overall_score": 1183.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:36.390369"
+      },
+      {
+        "rank": "18",
+        "model": "Qwen2.5-VL-72B-Instruct",
+        "scores": {
+          "overall_score": 1171.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:36.396417"
+      },
+      {
+        "rank": "18",
+        "model": "Llama-4-Scout-17B-16E-Instruct",
+        "scores": {
+          "overall_score": 1161.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:36.402465"
+      },
+      {
+        "rank": "20",
+        "model": "Gemini-2.0-Flash-Lite",
+        "scores": {
+          "overall_score": 1159.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:36.408444"
+      },
+      {
+        "rank": "21",
+        "model": "Pixtral-Large-2411",
+        "scores": {
+          "overall_score": 1154.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:36.414830"
+      },
+      {
+        "rank": "22",
+        "model": "Gemini-1.5-Pro-001",
+        "scores": {
+          "overall_score": 1151.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:36.421189"
+      },
+      {
+        "rank": "22",
+        "model": "GPT-4-Turbo-2024-04-09",
+        "scores": {
+          "overall_score": 1151.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:36.427952"
+      },
+      {
+        "rank": "24",
+        "model": "Qwen-VL-Max-1119",
+        "scores": {
+          "overall_score": 1128.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:36.434205"
+      },
+      {
+        "rank": "26",
+        "model": "GPT-4.1-nano-2025-04-14",
+        "scores": {
+          "overall_score": 1123.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:36.440667"
+      },
+      {
+        "rank": "27",
+        "model": "GPT-4o-2024-08-06",
+        "scores": {
+          "overall_score": 1126.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:36.447654"
+      },
+      {
+        "rank": "27",
+        "model": "GPT-4o-mini-2024-07-18",
+        "scores": {
+          "overall_score": 1124.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:36.453895"
+      },
+      {
+        "rank": "27",
+        "model": "Step-1V-32K",
+        "scores": {
+          "overall_score": 1111.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:36.460108"
+      },
+      {
+        "rank": "27",
+        "model": "Qwen2-VL-72b-Instruct",
+        "scores": {
+          "overall_score": 1111.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:36.466242"
+      },
+      {
+        "rank": "30",
+        "model": "Gemini-1.5-Flash-8B-001",
+        "scores": {
+          "overall_score": 1106.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:36.472380"
+      },
+      {
+        "rank": "34",
+        "model": "Claude 3 Opus",
+        "scores": {
+          "overall_score": 1076.0
+        },
+        "source": "Arena Playwright (overall)",
+        "category": "overall",
+        "scraped_at": "2025-05-27T14:13:36.478483"
+      }
+    ],
+    "coding": [
+      {
+        "rank": "105",
+        "model": "Gemini-2.0-Flash-001",
+        "scores": {
+          "coding_score": 1446.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:46.912230"
+      },
+      {
+        "rank": "1",
+        "model": "Gemini-2.5-Pro-Preview-05-06",
+        "scores": {
+          "coding_score": 1446.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:46.924152"
+      },
+      {
+        "rank": "1",
+        "model": "Gemini-2.5-Flash-Preview-05-20",
+        "scores": {
+          "coding_score": 1431.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:46.931169"
+      },
+      {
+        "rank": "3",
+        "model": "Grok-3-Preview-02-24",
+        "scores": {
+          "coding_score": 1396.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:46.945331"
+      },
+      {
+        "rank": "3",
+        "model": "ChatGPT-4o-latest (2025-03-26)",
+        "scores": {
+          "coding_score": 1395.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:46.951888"
+      },
+      {
+        "rank": "3",
+        "model": "Gemini-2.5-Flash-Preview-04-17",
+        "scores": {
+          "coding_score": 1390.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:46.958159"
+      },
+      {
+        "rank": "4",
+        "model": "GPT-4.5-Preview",
+        "scores": {
+          "coding_score": 1389.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:46.964650"
+      },
+      {
+        "rank": "4",
+        "model": "DeepSeek-V3-0324",
+        "scores": {
+          "coding_score": 1382.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:46.970753"
+      },
+      {
+        "rank": "7",
+        "model": "GPT-4.1-2025-04-14",
+        "scores": {
+          "coding_score": 1358.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:46.977786"
+      },
+      {
+        "rank": "8",
+        "model": "o4-mini-2025-04-16",
+        "scores": {
+          "coding_score": 1357.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:46.984093"
+      },
+      {
+        "rank": "8",
+        "model": "Qwen3-235B-A22B",
+        "scores": {
+          "coding_score": 1351.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:46.990634"
+      },
+      {
+        "rank": "8",
+        "model": "Hunyuan-Turbos-20250416",
+        "scores": {
+          "coding_score": 1351.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:46.996866"
+      },
+      {
+        "rank": "9",
+        "model": "DeepSeek-R1",
+        "scores": {
+          "coding_score": 1352.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:47.002852"
+      },
+      {
+        "rank": "9",
+        "model": "o3-mini-high",
+        "scores": {
+          "coding_score": 1351.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:47.009136"
+      },
+      {
+        "rank": "9",
+        "model": "GPT-4.1-mini-2025-04-14",
+        "scores": {
+          "coding_score": 1349.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:47.015541"
+      },
+      {
+        "rank": "9",
+        "model": "Mistral Medium 3",
+        "scores": {
+          "coding_score": 1346.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:47.027855"
+      },
+      {
+        "rank": "9",
+        "model": "Qwen3-32B",
+        "scores": {
+          "coding_score": 1345.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:47.033886"
+      },
+      {
+        "rank": "9",
+        "model": "o1-preview",
+        "scores": {
+          "coding_score": 1344.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:47.040413"
+      },
+      {
+        "rank": "9",
+        "model": "o1-mini",
+        "scores": {
+          "coding_score": 1342.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:47.047642"
+      },
+      {
+        "rank": "9",
+        "model": "Gemini-2.0-Flash-001",
+        "scores": {
+          "coding_score": 1341.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:47.053988"
+      },
+      {
+        "rank": "11",
+        "model": "Qwen-VL-Max-1119",
+        "scores": {
+          "coding_score": 1375.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:47.813834"
+      },
+      {
+        "rank": "1",
+        "model": "Gemini-2.5-Pro-Preview-05-06",
+        "scores": {
+          "coding_score": 1375.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:47.826315"
+      },
+      {
+        "rank": "2",
+        "model": "Gemini-2.5-Flash-Preview-05-20",
+        "scores": {
+          "coding_score": 1318.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:47.832971"
+      },
+      {
+        "rank": "2",
+        "model": "ChatGPT-4o-latest (2025-03-26)",
+        "scores": {
+          "coding_score": 1310.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:47.839266"
+      },
+      {
+        "rank": "3",
+        "model": "GPT-4.1-2025-04-14",
+        "scores": {
+          "coding_score": 1283.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:47.851444"
+      },
+      {
+        "rank": "5",
+        "model": "Gemini-2.5-Flash-Preview-04-17",
+        "scores": {
+          "coding_score": 1274.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:47.857674"
+      },
+      {
+        "rank": "5",
+        "model": "o4-mini-2025-04-16",
+        "scores": {
+          "coding_score": 1270.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:47.864011"
+      },
+      {
+        "rank": "6",
+        "model": "GPT-4.5-Preview",
+        "scores": {
+          "coding_score": 1256.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:47.870335"
+      },
+      {
+        "rank": "7",
+        "model": "GPT-4.1-mini-2025-04-14",
+        "scores": {
+          "coding_score": 1236.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:47.876480"
+      },
+      {
+        "rank": "9",
+        "model": "Gemini-2.0-Flash-001",
+        "scores": {
+          "coding_score": 1224.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:47.888550"
+      },
+      {
+        "rank": "9",
+        "model": "Gemini-1.5-Pro-002",
+        "scores": {
+          "coding_score": 1222.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:47.894685"
+      },
+      {
+        "rank": "9",
+        "model": "Qwen2.5-VL-32B-Instruct",
+        "scores": {
+          "coding_score": 1214.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:47.900500"
+      },
+      {
+        "rank": "11",
+        "model": "Claude 3.7 Sonnet",
+        "scores": {
+          "coding_score": 1208.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:47.906505"
+      },
+      {
+        "rank": "13",
+        "model": "GPT-4o-2024-05-13",
+        "scores": {
+          "coding_score": 1206.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:47.912376"
+      },
+      {
+        "rank": "13",
+        "model": "Gemini-1.5-Flash-002",
+        "scores": {
+          "coding_score": 1206.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:47.918161"
+      },
+      {
+        "rank": "14",
+        "model": "Step-1o-Vision-32k (highres)",
+        "scores": {
+          "coding_score": 1187.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:47.924315"
+      },
+      {
+        "rank": "14",
+        "model": "Llama-4-Maverick-17B-128E-Instruct",
+        "scores": {
+          "coding_score": 1181.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:47.930477"
+      },
+      {
+        "rank": "16",
+        "model": "Claude 3.5 Sonnet (20240620)",
+        "scores": {
+          "coding_score": 1189.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:47.937521"
+      },
+      {
+        "rank": "17",
+        "model": "Claude 3.5 Sonnet (20241022)",
+        "scores": {
+          "coding_score": 1183.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:47.943477"
+      },
+      {
+        "rank": "18",
+        "model": "Qwen2.5-VL-72B-Instruct",
+        "scores": {
+          "coding_score": 1171.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:47.949431"
+      },
+      {
+        "rank": "18",
+        "model": "Llama-4-Scout-17B-16E-Instruct",
+        "scores": {
+          "coding_score": 1161.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:47.956053"
+      },
+      {
+        "rank": "20",
+        "model": "Gemini-2.0-Flash-Lite",
+        "scores": {
+          "coding_score": 1159.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:47.961866"
+      },
+      {
+        "rank": "21",
+        "model": "Pixtral-Large-2411",
+        "scores": {
+          "coding_score": 1154.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:47.968262"
+      },
+      {
+        "rank": "22",
+        "model": "Gemini-1.5-Pro-001",
+        "scores": {
+          "coding_score": 1151.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:47.974711"
+      },
+      {
+        "rank": "22",
+        "model": "GPT-4-Turbo-2024-04-09",
+        "scores": {
+          "coding_score": 1151.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:47.981160"
+      },
+      {
+        "rank": "24",
+        "model": "Qwen-VL-Max-1119",
+        "scores": {
+          "coding_score": 1128.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:47.987476"
+      },
+      {
+        "rank": "26",
+        "model": "GPT-4.1-nano-2025-04-14",
+        "scores": {
+          "coding_score": 1123.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:47.993450"
+      },
+      {
+        "rank": "27",
+        "model": "GPT-4o-2024-08-06",
+        "scores": {
+          "coding_score": 1126.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:48.000550"
+      },
+      {
+        "rank": "27",
+        "model": "GPT-4o-mini-2024-07-18",
+        "scores": {
+          "coding_score": 1124.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:48.006810"
+      },
+      {
+        "rank": "27",
+        "model": "Step-1V-32K",
+        "scores": {
+          "coding_score": 1111.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:48.013059"
+      },
+      {
+        "rank": "27",
+        "model": "Qwen2-VL-72b-Instruct",
+        "scores": {
+          "coding_score": 1111.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:48.019108"
+      },
+      {
+        "rank": "30",
+        "model": "Gemini-1.5-Flash-8B-001",
+        "scores": {
+          "coding_score": 1106.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:48.025199"
+      },
+      {
+        "rank": "34",
+        "model": "Claude 3 Opus",
+        "scores": {
+          "coding_score": 1076.0
+        },
+        "source": "Arena Playwright (coding)",
+        "category": "coding",
+        "scraped_at": "2025-05-27T14:13:48.031424"
+      }
+    ],
+    "hard_prompts": [
+      {
+        "rank": "104",
+        "model": "Gemini-2.0-Flash-001",
+        "scores": {
+          "hard_prompts_score": 1446.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:58.503507"
+      },
+      {
+        "rank": "1",
+        "model": "Gemini-2.5-Pro-Preview-05-06",
+        "scores": {
+          "hard_prompts_score": 1446.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:58.515313"
+      },
+      {
+        "rank": "2",
+        "model": "Gemini-2.5-Flash-Preview-05-20",
+        "scores": {
+          "hard_prompts_score": 1411.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:58.522330"
+      },
+      {
+        "rank": "2",
+        "model": "Gemini-2.5-Flash-Preview-04-17",
+        "scores": {
+          "hard_prompts_score": 1393.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:58.534962"
+      },
+      {
+        "rank": "2",
+        "model": "Grok-3-Preview-02-24",
+        "scores": {
+          "hard_prompts_score": 1388.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:58.540969"
+      },
+      {
+        "rank": "4",
+        "model": "GPT-4.5-Preview",
+        "scores": {
+          "hard_prompts_score": 1376.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:58.546788"
+      },
+      {
+        "rank": "4",
+        "model": "ChatGPT-4o-latest (2025-03-26)",
+        "scores": {
+          "hard_prompts_score": 1374.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:58.552944"
+      },
+      {
+        "rank": "6",
+        "model": "GPT-4.1-2025-04-14",
+        "scores": {
+          "hard_prompts_score": 1357.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:58.559000"
+      },
+      {
+        "rank": "7",
+        "model": "DeepSeek-V3-0324",
+        "scores": {
+          "hard_prompts_score": 1354.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:58.566118"
+      },
+      {
+        "rank": "7",
+        "model": "Hunyuan-Turbos-20250416",
+        "scores": {
+          "hard_prompts_score": 1350.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:58.572783"
+      },
+      {
+        "rank": "8",
+        "model": "o4-mini-2025-04-16",
+        "scores": {
+          "hard_prompts_score": 1342.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:58.585036"
+      },
+      {
+        "rank": "8",
+        "model": "o3-mini-high",
+        "scores": {
+          "hard_prompts_score": 1341.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:58.591070"
+      },
+      {
+        "rank": "8",
+        "model": "Mistral Medium 3",
+        "scores": {
+          "hard_prompts_score": 1337.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:58.597298"
+      },
+      {
+        "rank": "8",
+        "model": "DeepSeek-R1",
+        "scores": {
+          "hard_prompts_score": 1336.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:58.603774"
+      },
+      {
+        "rank": "9",
+        "model": "Gemini-2.0-Flash-001",
+        "scores": {
+          "hard_prompts_score": 1335.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:58.609960"
+      },
+      {
+        "rank": "11",
+        "model": "o1-preview",
+        "scores": {
+          "hard_prompts_score": 1329.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:58.616050"
+      },
+      {
+        "rank": "11",
+        "model": "GPT-4.1-mini-2025-04-14",
+        "scores": {
+          "hard_prompts_score": 1326.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:58.622048"
+      },
+      {
+        "rank": "12",
+        "model": "o3-mini",
+        "scores": {
+          "hard_prompts_score": 1328.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:58.628241"
+      },
+      {
+        "rank": "13",
+        "model": "Qwen2.5-Max",
+        "scores": {
+          "hard_prompts_score": 1326.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:58.635006"
+      },
+      {
+        "rank": "13",
+        "model": "Qwen3-235B-A22B",
+        "scores": {
+          "hard_prompts_score": 1321.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:58.641494"
+      },
+      {
+        "rank": "11",
+        "model": "Qwen-VL-Max-1119",
+        "scores": {
+          "hard_prompts_score": 1375.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:59.389299"
+      },
+      {
+        "rank": "1",
+        "model": "Gemini-2.5-Pro-Preview-05-06",
+        "scores": {
+          "hard_prompts_score": 1375.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:59.402697"
+      },
+      {
+        "rank": "2",
+        "model": "Gemini-2.5-Flash-Preview-05-20",
+        "scores": {
+          "hard_prompts_score": 1318.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:59.410530"
+      },
+      {
+        "rank": "2",
+        "model": "ChatGPT-4o-latest (2025-03-26)",
+        "scores": {
+          "hard_prompts_score": 1310.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:59.417259"
+      },
+      {
+        "rank": "3",
+        "model": "GPT-4.1-2025-04-14",
+        "scores": {
+          "hard_prompts_score": 1283.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:59.430800"
+      },
+      {
+        "rank": "5",
+        "model": "Gemini-2.5-Flash-Preview-04-17",
+        "scores": {
+          "hard_prompts_score": 1274.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:59.436968"
+      },
+      {
+        "rank": "5",
+        "model": "o4-mini-2025-04-16",
+        "scores": {
+          "hard_prompts_score": 1270.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:59.443257"
+      },
+      {
+        "rank": "6",
+        "model": "GPT-4.5-Preview",
+        "scores": {
+          "hard_prompts_score": 1256.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:59.449196"
+      },
+      {
+        "rank": "7",
+        "model": "GPT-4.1-mini-2025-04-14",
+        "scores": {
+          "hard_prompts_score": 1236.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:59.456097"
+      },
+      {
+        "rank": "9",
+        "model": "Gemini-2.0-Flash-001",
+        "scores": {
+          "hard_prompts_score": 1224.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:59.468825"
+      },
+      {
+        "rank": "9",
+        "model": "Gemini-1.5-Pro-002",
+        "scores": {
+          "hard_prompts_score": 1222.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:59.475180"
+      },
+      {
+        "rank": "9",
+        "model": "Qwen2.5-VL-32B-Instruct",
+        "scores": {
+          "hard_prompts_score": 1214.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:59.480979"
+      },
+      {
+        "rank": "11",
+        "model": "Claude 3.7 Sonnet",
+        "scores": {
+          "hard_prompts_score": 1208.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:59.487490"
+      },
+      {
+        "rank": "13",
+        "model": "GPT-4o-2024-05-13",
+        "scores": {
+          "hard_prompts_score": 1206.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:59.494108"
+      },
+      {
+        "rank": "13",
+        "model": "Gemini-1.5-Flash-002",
+        "scores": {
+          "hard_prompts_score": 1206.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:59.500779"
+      },
+      {
+        "rank": "14",
+        "model": "Step-1o-Vision-32k (highres)",
+        "scores": {
+          "hard_prompts_score": 1187.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:59.507366"
+      },
+      {
+        "rank": "14",
+        "model": "Llama-4-Maverick-17B-128E-Instruct",
+        "scores": {
+          "hard_prompts_score": 1181.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:59.514087"
+      },
+      {
+        "rank": "16",
+        "model": "Claude 3.5 Sonnet (20240620)",
+        "scores": {
+          "hard_prompts_score": 1189.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:59.520710"
+      },
+      {
+        "rank": "17",
+        "model": "Claude 3.5 Sonnet (20241022)",
+        "scores": {
+          "hard_prompts_score": 1183.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:59.526963"
+      },
+      {
+        "rank": "18",
+        "model": "Qwen2.5-VL-72B-Instruct",
+        "scores": {
+          "hard_prompts_score": 1171.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:59.532741"
+      },
+      {
+        "rank": "18",
+        "model": "Llama-4-Scout-17B-16E-Instruct",
+        "scores": {
+          "hard_prompts_score": 1161.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:59.538749"
+      },
+      {
+        "rank": "20",
+        "model": "Gemini-2.0-Flash-Lite",
+        "scores": {
+          "hard_prompts_score": 1159.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:59.544655"
+      },
+      {
+        "rank": "21",
+        "model": "Pixtral-Large-2411",
+        "scores": {
+          "hard_prompts_score": 1154.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:59.550561"
+      },
+      {
+        "rank": "22",
+        "model": "Gemini-1.5-Pro-001",
+        "scores": {
+          "hard_prompts_score": 1151.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:59.556227"
+      },
+      {
+        "rank": "22",
+        "model": "GPT-4-Turbo-2024-04-09",
+        "scores": {
+          "hard_prompts_score": 1151.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:59.562182"
+      },
+      {
+        "rank": "24",
+        "model": "Qwen-VL-Max-1119",
+        "scores": {
+          "hard_prompts_score": 1128.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:59.568905"
+      },
+      {
+        "rank": "26",
+        "model": "GPT-4.1-nano-2025-04-14",
+        "scores": {
+          "hard_prompts_score": 1123.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:59.575134"
+      },
+      {
+        "rank": "27",
+        "model": "GPT-4o-2024-08-06",
+        "scores": {
+          "hard_prompts_score": 1126.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:59.581402"
+      },
+      {
+        "rank": "27",
+        "model": "GPT-4o-mini-2024-07-18",
+        "scores": {
+          "hard_prompts_score": 1124.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:59.587324"
+      },
+      {
+        "rank": "27",
+        "model": "Step-1V-32K",
+        "scores": {
+          "hard_prompts_score": 1111.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:59.593367"
+      },
+      {
+        "rank": "27",
+        "model": "Qwen2-VL-72b-Instruct",
+        "scores": {
+          "hard_prompts_score": 1111.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:59.599537"
+      },
+      {
+        "rank": "30",
+        "model": "Gemini-1.5-Flash-8B-001",
+        "scores": {
+          "hard_prompts_score": 1106.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:59.605584"
+      },
+      {
+        "rank": "34",
+        "model": "Claude 3 Opus",
+        "scores": {
+          "hard_prompts_score": 1076.0
+        },
+        "source": "Arena Playwright (hard_prompts)",
+        "category": "hard_prompts",
+        "scraped_at": "2025-05-27T14:13:59.611558"
+      }
+    ],
+    "instruction_following": [
+      {
+        "rank": "101",
+        "model": "Gemini-2.0-Flash-001",
+        "scores": {
+          "instruction_following_score": 1446.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:10.072524"
+      },
+      {
+        "rank": "1",
+        "model": "Gemini-2.5-Pro-Preview-05-06",
+        "scores": {
+          "instruction_following_score": 1446.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:10.085604"
+      },
+      {
+        "rank": "1",
+        "model": "Gemini-2.5-Flash-Preview-05-20",
+        "scores": {
+          "instruction_following_score": 1421.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:10.092229"
+      },
+      {
+        "rank": "2",
+        "model": "Gemini-2.5-Flash-Preview-04-17",
+        "scores": {
+          "instruction_following_score": 1403.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:10.098750"
+      },
+      {
+        "rank": "3",
+        "model": "GPT-4.5-Preview",
+        "scores": {
+          "instruction_following_score": 1389.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:10.105101"
+      },
+      {
+        "rank": "4",
+        "model": "Grok-3-Preview-02-24",
+        "scores": {
+          "instruction_following_score": 1384.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:10.117897"
+      },
+      {
+        "rank": "4",
+        "model": "ChatGPT-4o-latest (2025-03-26)",
+        "scores": {
+          "instruction_following_score": 1382.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:10.125342"
+      },
+      {
+        "rank": "8",
+        "model": "GPT-4.1-2025-04-14",
+        "scores": {
+          "instruction_following_score": 1357.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:10.131646"
+      },
+      {
+        "rank": "8",
+        "model": "DeepSeek-V3-0324",
+        "scores": {
+          "instruction_following_score": 1355.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:10.138072"
+      },
+      {
+        "rank": "8",
+        "model": "DeepSeek-R1",
+        "scores": {
+          "instruction_following_score": 1348.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:10.164465"
+      },
+      {
+        "rank": "8",
+        "model": "Hunyuan-Turbos-20250416",
+        "scores": {
+          "instruction_following_score": 1340.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:10.171500"
+      },
+      {
+        "rank": "9",
+        "model": "Claude 3.7 Sonnet (thinking-32k)",
+        "scores": {
+          "instruction_following_score": 1339.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:10.178306"
+      },
+      {
+        "rank": "11",
+        "model": "Gemini-2.0-Flash-001",
+        "scores": {
+          "instruction_following_score": 1336.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:10.184459"
+      },
+      {
+        "rank": "11",
+        "model": "Mistral Medium 3",
+        "scores": {
+          "instruction_following_score": 1320.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:10.191163"
+      },
+      {
+        "rank": "12",
+        "model": "o1-preview",
+        "scores": {
+          "instruction_following_score": 1330.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:10.197179"
+      },
+      {
+        "rank": "12",
+        "model": "o3-mini-high",
+        "scores": {
+          "instruction_following_score": 1328.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:10.204340"
+      },
+      {
+        "rank": "12",
+        "model": "o4-mini-2025-04-16",
+        "scores": {
+          "instruction_following_score": 1323.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:10.211494"
+      },
+      {
+        "rank": "12",
+        "model": "GPT-4.1-mini-2025-04-14",
+        "scores": {
+          "instruction_following_score": 1322.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:10.218068"
+      },
+      {
+        "rank": "14",
+        "model": "Qwen2.5-Max",
+        "scores": {
+          "instruction_following_score": 1322.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:10.224144"
+      },
+      {
+        "rank": "16",
+        "model": "Qwen3-235B-A22B",
+        "scores": {
+          "instruction_following_score": 1304.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:10.230375"
+      },
+      {
+        "rank": "11",
+        "model": "Qwen-VL-Max-1119",
+        "scores": {
+          "instruction_following_score": 1375.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:11.003268"
+      },
+      {
+        "rank": "1",
+        "model": "Gemini-2.5-Pro-Preview-05-06",
+        "scores": {
+          "instruction_following_score": 1375.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:11.017510"
+      },
+      {
+        "rank": "2",
+        "model": "Gemini-2.5-Flash-Preview-05-20",
+        "scores": {
+          "instruction_following_score": 1318.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:11.024040"
+      },
+      {
+        "rank": "2",
+        "model": "ChatGPT-4o-latest (2025-03-26)",
+        "scores": {
+          "instruction_following_score": 1310.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:11.030417"
+      },
+      {
+        "rank": "3",
+        "model": "GPT-4.1-2025-04-14",
+        "scores": {
+          "instruction_following_score": 1283.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:11.043587"
+      },
+      {
+        "rank": "5",
+        "model": "Gemini-2.5-Flash-Preview-04-17",
+        "scores": {
+          "instruction_following_score": 1274.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:11.049785"
+      },
+      {
+        "rank": "5",
+        "model": "o4-mini-2025-04-16",
+        "scores": {
+          "instruction_following_score": 1270.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:11.057090"
+      },
+      {
+        "rank": "6",
+        "model": "GPT-4.5-Preview",
+        "scores": {
+          "instruction_following_score": 1256.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:11.063853"
+      },
+      {
+        "rank": "7",
+        "model": "GPT-4.1-mini-2025-04-14",
+        "scores": {
+          "instruction_following_score": 1236.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:11.070373"
+      },
+      {
+        "rank": "9",
+        "model": "Gemini-2.0-Flash-001",
+        "scores": {
+          "instruction_following_score": 1224.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:11.082715"
+      },
+      {
+        "rank": "9",
+        "model": "Gemini-1.5-Pro-002",
+        "scores": {
+          "instruction_following_score": 1222.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:11.088751"
+      },
+      {
+        "rank": "9",
+        "model": "Qwen2.5-VL-32B-Instruct",
+        "scores": {
+          "instruction_following_score": 1214.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:11.095101"
+      },
+      {
+        "rank": "11",
+        "model": "Claude 3.7 Sonnet",
+        "scores": {
+          "instruction_following_score": 1208.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:11.101141"
+      },
+      {
+        "rank": "13",
+        "model": "GPT-4o-2024-05-13",
+        "scores": {
+          "instruction_following_score": 1206.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:11.107176"
+      },
+      {
+        "rank": "13",
+        "model": "Gemini-1.5-Flash-002",
+        "scores": {
+          "instruction_following_score": 1206.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:11.112947"
+      },
+      {
+        "rank": "14",
+        "model": "Step-1o-Vision-32k (highres)",
+        "scores": {
+          "instruction_following_score": 1187.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:11.118960"
+      },
+      {
+        "rank": "14",
+        "model": "Llama-4-Maverick-17B-128E-Instruct",
+        "scores": {
+          "instruction_following_score": 1181.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:11.125759"
+      },
+      {
+        "rank": "16",
+        "model": "Claude 3.5 Sonnet (20240620)",
+        "scores": {
+          "instruction_following_score": 1189.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:11.131557"
+      },
+      {
+        "rank": "17",
+        "model": "Claude 3.5 Sonnet (20241022)",
+        "scores": {
+          "instruction_following_score": 1183.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:11.137598"
+      },
+      {
+        "rank": "18",
+        "model": "Qwen2.5-VL-72B-Instruct",
+        "scores": {
+          "instruction_following_score": 1171.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:11.143929"
+      },
+      {
+        "rank": "18",
+        "model": "Llama-4-Scout-17B-16E-Instruct",
+        "scores": {
+          "instruction_following_score": 1161.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:11.150295"
+      },
+      {
+        "rank": "20",
+        "model": "Gemini-2.0-Flash-Lite",
+        "scores": {
+          "instruction_following_score": 1159.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:11.156073"
+      },
+      {
+        "rank": "21",
+        "model": "Pixtral-Large-2411",
+        "scores": {
+          "instruction_following_score": 1154.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:11.162594"
+      },
+      {
+        "rank": "22",
+        "model": "Gemini-1.5-Pro-001",
+        "scores": {
+          "instruction_following_score": 1151.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:11.169043"
+      },
+      {
+        "rank": "22",
+        "model": "GPT-4-Turbo-2024-04-09",
+        "scores": {
+          "instruction_following_score": 1151.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:11.175136"
+      },
+      {
+        "rank": "24",
+        "model": "Qwen-VL-Max-1119",
+        "scores": {
+          "instruction_following_score": 1128.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:11.180962"
+      },
+      {
+        "rank": "26",
+        "model": "GPT-4.1-nano-2025-04-14",
+        "scores": {
+          "instruction_following_score": 1123.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:11.187335"
+      },
+      {
+        "rank": "27",
+        "model": "GPT-4o-2024-08-06",
+        "scores": {
+          "instruction_following_score": 1126.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:11.194134"
+      },
+      {
+        "rank": "27",
+        "model": "GPT-4o-mini-2024-07-18",
+        "scores": {
+          "instruction_following_score": 1124.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:11.200022"
+      },
+      {
+        "rank": "27",
+        "model": "Step-1V-32K",
+        "scores": {
+          "instruction_following_score": 1111.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:11.205919"
+      },
+      {
+        "rank": "27",
+        "model": "Qwen2-VL-72b-Instruct",
+        "scores": {
+          "instruction_following_score": 1111.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:11.212065"
+      },
+      {
+        "rank": "30",
+        "model": "Gemini-1.5-Flash-8B-001",
+        "scores": {
+          "instruction_following_score": 1106.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:11.218355"
+      },
+      {
+        "rank": "34",
+        "model": "Claude 3 Opus",
+        "scores": {
+          "instruction_following_score": 1076.0
+        },
+        "source": "Arena Playwright (instruction_following)",
+        "category": "instruction_following",
+        "scraped_at": "2025-05-27T14:14:11.224317"
+      }
+    ],
+    "creative_writing": [
+      {
+        "rank": "106",
+        "model": "Gemini-2.0-Flash-001",
+        "scores": {
+          "creative_writing_score": 1446.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:21.628649"
+      },
+      {
+        "rank": "1",
+        "model": "Gemini-2.5-Pro-Preview-05-06",
+        "scores": {
+          "creative_writing_score": 1446.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:21.640623"
+      },
+      {
+        "rank": "1",
+        "model": "Gemini-2.5-Flash-Preview-05-20",
+        "scores": {
+          "creative_writing_score": 1417.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:21.647531"
+      },
+      {
+        "rank": "2",
+        "model": "ChatGPT-4o-latest (2025-03-26)",
+        "scores": {
+          "creative_writing_score": 1387.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:21.654373"
+      },
+      {
+        "rank": "2",
+        "model": "Grok-3-Preview-02-24",
+        "scores": {
+          "creative_writing_score": 1385.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:21.661009"
+      },
+      {
+        "rank": "2",
+        "model": "Gemini-2.5-Flash-Preview-04-17",
+        "scores": {
+          "creative_writing_score": 1377.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:21.667290"
+      },
+      {
+        "rank": "3",
+        "model": "GPT-4.5-Preview",
+        "scores": {
+          "creative_writing_score": 1367.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:21.673970"
+      },
+      {
+        "rank": "5",
+        "model": "Hunyuan-Turbos-20250416",
+        "scores": {
+          "creative_writing_score": 1350.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:21.680746"
+      },
+      {
+        "rank": "5",
+        "model": "DeepSeek-V3-0324",
+        "scores": {
+          "creative_writing_score": 1349.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:21.687940"
+      },
+      {
+        "rank": "6",
+        "model": "GPT-4.1-2025-04-14",
+        "scores": {
+          "creative_writing_score": 1345.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:21.703417"
+      },
+      {
+        "rank": "7",
+        "model": "Gemma-3-27B-it",
+        "scores": {
+          "creative_writing_score": 1334.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:21.711981"
+      },
+      {
+        "rank": "7",
+        "model": "DeepSeek-R1",
+        "scores": {
+          "creative_writing_score": 1331.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:21.718462"
+      },
+      {
+        "rank": "7",
+        "model": "Gemma-3-12B-it",
+        "scores": {
+          "creative_writing_score": 1310.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:21.724789"
+      },
+      {
+        "rank": "8",
+        "model": "Gemini-2.0-Flash-001",
+        "scores": {
+          "creative_writing_score": 1324.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:21.731278"
+      },
+      {
+        "rank": "8",
+        "model": "Mistral Medium 3",
+        "scores": {
+          "creative_writing_score": 1311.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:21.738207"
+      },
+      {
+        "rank": "12",
+        "model": "Step-2-16K-Exp",
+        "scores": {
+          "creative_writing_score": 1302.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:21.752105"
+      },
+      {
+        "rank": "13",
+        "model": "Qwen2.5-Max",
+        "scores": {
+          "creative_writing_score": 1310.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:21.758372"
+      },
+      {
+        "rank": "14",
+        "model": "DeepSeek-V3",
+        "scores": {
+          "creative_writing_score": 1307.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:21.764976"
+      },
+      {
+        "rank": "14",
+        "model": "Claude 3.7 Sonnet (thinking-32k)",
+        "scores": {
+          "creative_writing_score": 1303.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:21.771244"
+      },
+      {
+        "rank": "14",
+        "model": "Llama-3.1-Nemotron-Ultra-253B-v1",
+        "scores": {
+          "creative_writing_score": 1292.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:21.777421"
+      },
+      {
+        "rank": "11",
+        "model": "Qwen-VL-Max-1119",
+        "scores": {
+          "creative_writing_score": 1375.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:22.522619"
+      },
+      {
+        "rank": "1",
+        "model": "Gemini-2.5-Pro-Preview-05-06",
+        "scores": {
+          "creative_writing_score": 1375.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:22.535168"
+      },
+      {
+        "rank": "2",
+        "model": "Gemini-2.5-Flash-Preview-05-20",
+        "scores": {
+          "creative_writing_score": 1318.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:22.541191"
+      },
+      {
+        "rank": "2",
+        "model": "ChatGPT-4o-latest (2025-03-26)",
+        "scores": {
+          "creative_writing_score": 1310.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:22.547865"
+      },
+      {
+        "rank": "3",
+        "model": "GPT-4.1-2025-04-14",
+        "scores": {
+          "creative_writing_score": 1283.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:22.560522"
+      },
+      {
+        "rank": "5",
+        "model": "Gemini-2.5-Flash-Preview-04-17",
+        "scores": {
+          "creative_writing_score": 1274.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:22.566808"
+      },
+      {
+        "rank": "5",
+        "model": "o4-mini-2025-04-16",
+        "scores": {
+          "creative_writing_score": 1270.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:22.573103"
+      },
+      {
+        "rank": "6",
+        "model": "GPT-4.5-Preview",
+        "scores": {
+          "creative_writing_score": 1256.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:22.579281"
+      },
+      {
+        "rank": "7",
+        "model": "GPT-4.1-mini-2025-04-14",
+        "scores": {
+          "creative_writing_score": 1236.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:22.585403"
+      },
+      {
+        "rank": "9",
+        "model": "Gemini-2.0-Flash-001",
+        "scores": {
+          "creative_writing_score": 1224.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:22.597706"
+      },
+      {
+        "rank": "9",
+        "model": "Gemini-1.5-Pro-002",
+        "scores": {
+          "creative_writing_score": 1222.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:22.604143"
+      },
+      {
+        "rank": "9",
+        "model": "Qwen2.5-VL-32B-Instruct",
+        "scores": {
+          "creative_writing_score": 1214.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:22.610535"
+      },
+      {
+        "rank": "11",
+        "model": "Claude 3.7 Sonnet",
+        "scores": {
+          "creative_writing_score": 1208.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:22.617122"
+      },
+      {
+        "rank": "13",
+        "model": "GPT-4o-2024-05-13",
+        "scores": {
+          "creative_writing_score": 1206.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:22.623264"
+      },
+      {
+        "rank": "13",
+        "model": "Gemini-1.5-Flash-002",
+        "scores": {
+          "creative_writing_score": 1206.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:22.629618"
+      },
+      {
+        "rank": "14",
+        "model": "Step-1o-Vision-32k (highres)",
+        "scores": {
+          "creative_writing_score": 1187.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:22.636803"
+      },
+      {
+        "rank": "14",
+        "model": "Llama-4-Maverick-17B-128E-Instruct",
+        "scores": {
+          "creative_writing_score": 1181.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:22.642871"
+      },
+      {
+        "rank": "16",
+        "model": "Claude 3.5 Sonnet (20240620)",
+        "scores": {
+          "creative_writing_score": 1189.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:22.648692"
+      },
+      {
+        "rank": "17",
+        "model": "Claude 3.5 Sonnet (20241022)",
+        "scores": {
+          "creative_writing_score": 1183.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:22.654768"
+      },
+      {
+        "rank": "18",
+        "model": "Qwen2.5-VL-72B-Instruct",
+        "scores": {
+          "creative_writing_score": 1171.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:22.660818"
+      },
+      {
+        "rank": "18",
+        "model": "Llama-4-Scout-17B-16E-Instruct",
+        "scores": {
+          "creative_writing_score": 1161.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:22.666904"
+      },
+      {
+        "rank": "20",
+        "model": "Gemini-2.0-Flash-Lite",
+        "scores": {
+          "creative_writing_score": 1159.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:22.672691"
+      },
+      {
+        "rank": "21",
+        "model": "Pixtral-Large-2411",
+        "scores": {
+          "creative_writing_score": 1154.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:22.678678"
+      },
+      {
+        "rank": "22",
+        "model": "Gemini-1.5-Pro-001",
+        "scores": {
+          "creative_writing_score": 1151.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:22.684665"
+      },
+      {
+        "rank": "22",
+        "model": "GPT-4-Turbo-2024-04-09",
+        "scores": {
+          "creative_writing_score": 1151.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:22.690645"
+      },
+      {
+        "rank": "24",
+        "model": "Qwen-VL-Max-1119",
+        "scores": {
+          "creative_writing_score": 1128.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:22.696753"
+      },
+      {
+        "rank": "26",
+        "model": "GPT-4.1-nano-2025-04-14",
+        "scores": {
+          "creative_writing_score": 1123.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:22.703573"
+      },
+      {
+        "rank": "27",
+        "model": "GPT-4o-2024-08-06",
+        "scores": {
+          "creative_writing_score": 1126.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:22.709586"
+      },
+      {
+        "rank": "27",
+        "model": "GPT-4o-mini-2024-07-18",
+        "scores": {
+          "creative_writing_score": 1124.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:22.715676"
+      },
+      {
+        "rank": "27",
+        "model": "Step-1V-32K",
+        "scores": {
+          "creative_writing_score": 1111.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:22.722036"
+      },
+      {
+        "rank": "27",
+        "model": "Qwen2-VL-72b-Instruct",
+        "scores": {
+          "creative_writing_score": 1111.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:22.728343"
+      },
+      {
+        "rank": "30",
+        "model": "Gemini-1.5-Flash-8B-001",
+        "scores": {
+          "creative_writing_score": 1106.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:22.734563"
+      },
+      {
+        "rank": "34",
+        "model": "Claude 3 Opus",
+        "scores": {
+          "creative_writing_score": 1076.0
+        },
+        "source": "Arena Playwright (creative_writing)",
+        "category": "creative_writing",
+        "scraped_at": "2025-05-27T14:14:22.740606"
+      }
+    ],
+    "multi_turn": [
+      {
+        "rank": "102",
+        "model": "Gemini-2.0-Flash-001",
+        "scores": {
+          "multi_turn_score": 1446.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:33.211970"
+      },
+      {
+        "rank": "1",
+        "model": "Gemini-2.5-Pro-Preview-05-06",
+        "scores": {
+          "multi_turn_score": 1446.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:33.224314"
+      },
+      {
+        "rank": "1",
+        "model": "ChatGPT-4o-latest (2025-03-26)",
+        "scores": {
+          "multi_turn_score": 1426.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:33.231507"
+      },
+      {
+        "rank": "2",
+        "model": "GPT-4.5-Preview",
+        "scores": {
+          "multi_turn_score": 1405.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:33.237982"
+      },
+      {
+        "rank": "3",
+        "model": "Gemini-2.5-Flash-Preview-05-20",
+        "scores": {
+          "multi_turn_score": 1386.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:33.244553"
+      },
+      {
+        "rank": "3",
+        "model": "Grok-3-Preview-02-24",
+        "scores": {
+          "multi_turn_score": 1384.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:33.251218"
+      },
+      {
+        "rank": "3",
+        "model": "DeepSeek-V3-0324",
+        "scores": {
+          "multi_turn_score": 1378.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:33.257771"
+      },
+      {
+        "rank": "4",
+        "model": "Gemini-2.5-Flash-Preview-04-17",
+        "scores": {
+          "multi_turn_score": 1368.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:33.270863"
+      },
+      {
+        "rank": "4",
+        "model": "GPT-4.1-2025-04-14",
+        "scores": {
+          "multi_turn_score": 1359.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:33.277131"
+      },
+      {
+        "rank": "4",
+        "model": "Hunyuan-Turbos-20250416",
+        "scores": {
+          "multi_turn_score": 1355.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:33.285012"
+      },
+      {
+        "rank": "7",
+        "model": "Mistral Medium 3",
+        "scores": {
+          "multi_turn_score": 1337.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:33.291926"
+      },
+      {
+        "rank": "8",
+        "model": "DeepSeek-R1",
+        "scores": {
+          "multi_turn_score": 1348.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:33.298522"
+      },
+      {
+        "rank": "9",
+        "model": "GPT-4.1-mini-2025-04-14",
+        "scores": {
+          "multi_turn_score": 1326.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:33.304747"
+      },
+      {
+        "rank": "10",
+        "model": "o4-mini-2025-04-16",
+        "scores": {
+          "multi_turn_score": 1321.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:33.311174"
+      },
+      {
+        "rank": "11",
+        "model": "Gemini-2.0-Flash-001",
+        "scores": {
+          "multi_turn_score": 1326.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:33.317942"
+      },
+      {
+        "rank": "11",
+        "model": "o1-preview",
+        "scores": {
+          "multi_turn_score": 1324.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:33.324626"
+      },
+      {
+        "rank": "11",
+        "model": "Qwen2.5-Max",
+        "scores": {
+          "multi_turn_score": 1320.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:33.330881"
+      },
+      {
+        "rank": "12",
+        "model": "Gemma-3-27B-it",
+        "scores": {
+          "multi_turn_score": 1308.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:33.345169"
+      },
+      {
+        "rank": "12",
+        "model": "Qwen3-235B-A22B",
+        "scores": {
+          "multi_turn_score": 1300.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:33.351615"
+      },
+      {
+        "rank": "12",
+        "model": "Qwen3-32B",
+        "scores": {
+          "multi_turn_score": 1294.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:33.358057"
+      },
+      {
+        "rank": "11",
+        "model": "Qwen-VL-Max-1119",
+        "scores": {
+          "multi_turn_score": 1375.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:34.110897"
+      },
+      {
+        "rank": "1",
+        "model": "Gemini-2.5-Pro-Preview-05-06",
+        "scores": {
+          "multi_turn_score": 1375.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:34.126701"
+      },
+      {
+        "rank": "2",
+        "model": "Gemini-2.5-Flash-Preview-05-20",
+        "scores": {
+          "multi_turn_score": 1318.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:34.135371"
+      },
+      {
+        "rank": "2",
+        "model": "ChatGPT-4o-latest (2025-03-26)",
+        "scores": {
+          "multi_turn_score": 1310.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:34.145082"
+      },
+      {
+        "rank": "3",
+        "model": "GPT-4.1-2025-04-14",
+        "scores": {
+          "multi_turn_score": 1283.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:34.159867"
+      },
+      {
+        "rank": "5",
+        "model": "Gemini-2.5-Flash-Preview-04-17",
+        "scores": {
+          "multi_turn_score": 1274.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:34.166725"
+      },
+      {
+        "rank": "5",
+        "model": "o4-mini-2025-04-16",
+        "scores": {
+          "multi_turn_score": 1270.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:34.175045"
+      },
+      {
+        "rank": "6",
+        "model": "GPT-4.5-Preview",
+        "scores": {
+          "multi_turn_score": 1256.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:34.181936"
+      },
+      {
+        "rank": "7",
+        "model": "GPT-4.1-mini-2025-04-14",
+        "scores": {
+          "multi_turn_score": 1236.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:34.188304"
+      },
+      {
+        "rank": "9",
+        "model": "Gemini-2.0-Flash-001",
+        "scores": {
+          "multi_turn_score": 1224.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:34.200815"
+      },
+      {
+        "rank": "9",
+        "model": "Gemini-1.5-Pro-002",
+        "scores": {
+          "multi_turn_score": 1222.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:34.207393"
+      },
+      {
+        "rank": "9",
+        "model": "Qwen2.5-VL-32B-Instruct",
+        "scores": {
+          "multi_turn_score": 1214.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:34.213668"
+      },
+      {
+        "rank": "11",
+        "model": "Claude 3.7 Sonnet",
+        "scores": {
+          "multi_turn_score": 1208.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:34.219809"
+      },
+      {
+        "rank": "13",
+        "model": "GPT-4o-2024-05-13",
+        "scores": {
+          "multi_turn_score": 1206.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:34.226179"
+      },
+      {
+        "rank": "13",
+        "model": "Gemini-1.5-Flash-002",
+        "scores": {
+          "multi_turn_score": 1206.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:34.232440"
+      },
+      {
+        "rank": "14",
+        "model": "Step-1o-Vision-32k (highres)",
+        "scores": {
+          "multi_turn_score": 1187.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:34.239994"
+      },
+      {
+        "rank": "14",
+        "model": "Llama-4-Maverick-17B-128E-Instruct",
+        "scores": {
+          "multi_turn_score": 1181.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:34.246230"
+      },
+      {
+        "rank": "16",
+        "model": "Claude 3.5 Sonnet (20240620)",
+        "scores": {
+          "multi_turn_score": 1189.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:34.252432"
+      },
+      {
+        "rank": "17",
+        "model": "Claude 3.5 Sonnet (20241022)",
+        "scores": {
+          "multi_turn_score": 1183.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:34.258631"
+      },
+      {
+        "rank": "18",
+        "model": "Qwen2.5-VL-72B-Instruct",
+        "scores": {
+          "multi_turn_score": 1171.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:34.264746"
+      },
+      {
+        "rank": "18",
+        "model": "Llama-4-Scout-17B-16E-Instruct",
+        "scores": {
+          "multi_turn_score": 1161.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:34.270871"
+      },
+      {
+        "rank": "20",
+        "model": "Gemini-2.0-Flash-Lite",
+        "scores": {
+          "multi_turn_score": 1159.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:34.276805"
+      },
+      {
+        "rank": "21",
+        "model": "Pixtral-Large-2411",
+        "scores": {
+          "multi_turn_score": 1154.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:34.282947"
+      },
+      {
+        "rank": "22",
+        "model": "Gemini-1.5-Pro-001",
+        "scores": {
+          "multi_turn_score": 1151.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:34.289052"
+      },
+      {
+        "rank": "22",
+        "model": "GPT-4-Turbo-2024-04-09",
+        "scores": {
+          "multi_turn_score": 1151.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:34.294914"
+      },
+      {
+        "rank": "24",
+        "model": "Qwen-VL-Max-1119",
+        "scores": {
+          "multi_turn_score": 1128.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:34.301062"
+      },
+      {
+        "rank": "26",
+        "model": "GPT-4.1-nano-2025-04-14",
+        "scores": {
+          "multi_turn_score": 1123.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:34.308599"
+      },
+      {
+        "rank": "27",
+        "model": "GPT-4o-2024-08-06",
+        "scores": {
+          "multi_turn_score": 1126.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:34.315364"
+      },
+      {
+        "rank": "27",
+        "model": "GPT-4o-mini-2024-07-18",
+        "scores": {
+          "multi_turn_score": 1124.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:34.321266"
+      },
+      {
+        "rank": "27",
+        "model": "Step-1V-32K",
+        "scores": {
+          "multi_turn_score": 1111.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:34.327313"
+      },
+      {
+        "rank": "27",
+        "model": "Qwen2-VL-72b-Instruct",
+        "scores": {
+          "multi_turn_score": 1111.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:34.333416"
+      },
+      {
+        "rank": "30",
+        "model": "Gemini-1.5-Flash-8B-001",
+        "scores": {
+          "multi_turn_score": 1106.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:34.340112"
+      },
+      {
+        "rank": "34",
+        "model": "Claude 3 Opus",
+        "scores": {
+          "multi_turn_score": 1076.0
+        },
+        "source": "Arena Playwright (multi_turn)",
+        "category": "multi_turn",
+        "scraped_at": "2025-05-27T14:14:34.347162"
+      }
+    ],
+    "english": [
+      {
+        "rank": "102",
+        "model": "Gemini-2.0-Flash-001",
+        "scores": {
+          "english_score": 1446.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:44.754018"
+      },
+      {
+        "rank": "1",
+        "model": "Gemini-2.5-Pro-Preview-05-06",
+        "scores": {
+          "english_score": 1446.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:44.765878"
+      },
+      {
+        "rank": "2",
+        "model": "Grok-3-Preview-02-24",
+        "scores": {
+          "english_score": 1399.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:44.778970"
+      },
+      {
+        "rank": "2",
+        "model": "Gemini-2.5-Flash-Preview-04-17",
+        "scores": {
+          "english_score": 1399.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:44.785131"
+      },
+      {
+        "rank": "2",
+        "model": "Gemini-2.5-Flash-Preview-05-20",
+        "scores": {
+          "english_score": 1399.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:44.791145"
+      },
+      {
+        "rank": "3",
+        "model": "GPT-4.5-Preview",
+        "scores": {
+          "english_score": 1381.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:44.798072"
+      },
+      {
+        "rank": "3",
+        "model": "ChatGPT-4o-latest (2025-03-26)",
+        "scores": {
+          "english_score": 1378.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:44.804195"
+      },
+      {
+        "rank": "4",
+        "model": "DeepSeek-V3-0324",
+        "scores": {
+          "english_score": 1368.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:44.810266"
+      },
+      {
+        "rank": "4",
+        "model": "GPT-4.1-2025-04-14",
+        "scores": {
+          "english_score": 1365.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:44.817254"
+      },
+      {
+        "rank": "6",
+        "model": "Mistral Medium 3",
+        "scores": {
+          "english_score": 1351.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:44.823875"
+      },
+      {
+        "rank": "6",
+        "model": "Hunyuan-Turbos-20250416",
+        "scores": {
+          "english_score": 1351.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:44.830136"
+      },
+      {
+        "rank": "7",
+        "model": "o4-mini-2025-04-16",
+        "scores": {
+          "english_score": 1346.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:44.836307"
+      },
+      {
+        "rank": "8",
+        "model": "o1-preview",
+        "scores": {
+          "english_score": 1351.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:44.843124"
+      },
+      {
+        "rank": "8",
+        "model": "DeepSeek-R1",
+        "scores": {
+          "english_score": 1350.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:44.849641"
+      },
+      {
+        "rank": "8",
+        "model": "o3-mini-high",
+        "scores": {
+          "english_score": 1349.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:44.856218"
+      },
+      {
+        "rank": "9",
+        "model": "Gemini-2.0-Flash-001",
+        "scores": {
+          "english_score": 1345.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:44.868781"
+      },
+      {
+        "rank": "9",
+        "model": "GPT-4.1-mini-2025-04-14",
+        "scores": {
+          "english_score": 1339.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:44.875097"
+      },
+      {
+        "rank": "9",
+        "model": "Qwen3-235B-A22B",
+        "scores": {
+          "english_score": 1335.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:44.882213"
+      },
+      {
+        "rank": "10",
+        "model": "o3-mini",
+        "scores": {
+          "english_score": 1337.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:44.888313"
+      },
+      {
+        "rank": "11",
+        "model": "Llama-3.3-Nemotron-Super-49B-v1",
+        "scores": {
+          "english_score": 1311.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:44.895356"
+      },
+      {
+        "rank": "11",
+        "model": "Qwen-VL-Max-1119",
+        "scores": {
+          "english_score": 1375.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:45.695169"
+      },
+      {
+        "rank": "1",
+        "model": "Gemini-2.5-Pro-Preview-05-06",
+        "scores": {
+          "english_score": 1375.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:45.707709"
+      },
+      {
+        "rank": "2",
+        "model": "Gemini-2.5-Flash-Preview-05-20",
+        "scores": {
+          "english_score": 1318.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:45.714303"
+      },
+      {
+        "rank": "2",
+        "model": "ChatGPT-4o-latest (2025-03-26)",
+        "scores": {
+          "english_score": 1310.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:45.721272"
+      },
+      {
+        "rank": "3",
+        "model": "GPT-4.1-2025-04-14",
+        "scores": {
+          "english_score": 1283.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:45.734109"
+      },
+      {
+        "rank": "5",
+        "model": "Gemini-2.5-Flash-Preview-04-17",
+        "scores": {
+          "english_score": 1274.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:45.741407"
+      },
+      {
+        "rank": "5",
+        "model": "o4-mini-2025-04-16",
+        "scores": {
+          "english_score": 1270.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:45.750146"
+      },
+      {
+        "rank": "6",
+        "model": "GPT-4.5-Preview",
+        "scores": {
+          "english_score": 1256.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:45.756575"
+      },
+      {
+        "rank": "7",
+        "model": "GPT-4.1-mini-2025-04-14",
+        "scores": {
+          "english_score": 1236.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:45.763067"
+      },
+      {
+        "rank": "9",
+        "model": "Gemini-2.0-Flash-001",
+        "scores": {
+          "english_score": 1224.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:45.775208"
+      },
+      {
+        "rank": "9",
+        "model": "Gemini-1.5-Pro-002",
+        "scores": {
+          "english_score": 1222.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:45.781546"
+      },
+      {
+        "rank": "9",
+        "model": "Qwen2.5-VL-32B-Instruct",
+        "scores": {
+          "english_score": 1214.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:45.787631"
+      },
+      {
+        "rank": "11",
+        "model": "Claude 3.7 Sonnet",
+        "scores": {
+          "english_score": 1208.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:45.793427"
+      },
+      {
+        "rank": "13",
+        "model": "GPT-4o-2024-05-13",
+        "scores": {
+          "english_score": 1206.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:45.813197"
+      },
+      {
+        "rank": "13",
+        "model": "Gemini-1.5-Flash-002",
+        "scores": {
+          "english_score": 1206.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:45.819552"
+      },
+      {
+        "rank": "14",
+        "model": "Step-1o-Vision-32k (highres)",
+        "scores": {
+          "english_score": 1187.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:45.825686"
+      },
+      {
+        "rank": "14",
+        "model": "Llama-4-Maverick-17B-128E-Instruct",
+        "scores": {
+          "english_score": 1181.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:45.831818"
+      },
+      {
+        "rank": "16",
+        "model": "Claude 3.5 Sonnet (20240620)",
+        "scores": {
+          "english_score": 1189.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:45.838750"
+      },
+      {
+        "rank": "17",
+        "model": "Claude 3.5 Sonnet (20241022)",
+        "scores": {
+          "english_score": 1183.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:45.845098"
+      },
+      {
+        "rank": "18",
+        "model": "Qwen2.5-VL-72B-Instruct",
+        "scores": {
+          "english_score": 1171.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:45.851051"
+      },
+      {
+        "rank": "18",
+        "model": "Llama-4-Scout-17B-16E-Instruct",
+        "scores": {
+          "english_score": 1161.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:45.857042"
+      },
+      {
+        "rank": "20",
+        "model": "Gemini-2.0-Flash-Lite",
+        "scores": {
+          "english_score": 1159.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:45.863051"
+      },
+      {
+        "rank": "21",
+        "model": "Pixtral-Large-2411",
+        "scores": {
+          "english_score": 1154.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:45.869090"
+      },
+      {
+        "rank": "22",
+        "model": "Gemini-1.5-Pro-001",
+        "scores": {
+          "english_score": 1151.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:45.875674"
+      },
+      {
+        "rank": "22",
+        "model": "GPT-4-Turbo-2024-04-09",
+        "scores": {
+          "english_score": 1151.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:45.881785"
+      },
+      {
+        "rank": "24",
+        "model": "Qwen-VL-Max-1119",
+        "scores": {
+          "english_score": 1128.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:45.887670"
+      },
+      {
+        "rank": "26",
+        "model": "GPT-4.1-nano-2025-04-14",
+        "scores": {
+          "english_score": 1123.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:45.893816"
+      },
+      {
+        "rank": "27",
+        "model": "GPT-4o-2024-08-06",
+        "scores": {
+          "english_score": 1126.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:45.900430"
+      },
+      {
+        "rank": "27",
+        "model": "GPT-4o-mini-2024-07-18",
+        "scores": {
+          "english_score": 1124.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:45.907429"
+      },
+      {
+        "rank": "27",
+        "model": "Step-1V-32K",
+        "scores": {
+          "english_score": 1111.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:45.913500"
+      },
+      {
+        "rank": "27",
+        "model": "Qwen2-VL-72b-Instruct",
+        "scores": {
+          "english_score": 1111.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:45.919361"
+      },
+      {
+        "rank": "30",
+        "model": "Gemini-1.5-Flash-8B-001",
+        "scores": {
+          "english_score": 1106.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:45.925708"
+      },
+      {
+        "rank": "34",
+        "model": "Claude 3 Opus",
+        "scores": {
+          "english_score": 1076.0
+        },
+        "source": "Arena Playwright (english)",
+        "category": "english",
+        "scraped_at": "2025-05-27T14:14:45.931906"
+      }
+    ],
+    "chinese": [
+      {
+        "rank": "100",
+        "model": "Gemini-2.0-Flash-001",
+        "scores": {
+          "chinese_score": 1456.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:56.452429"
+      },
+      {
+        "rank": "1",
+        "model": "Gemini-2.5-Pro-Preview-05-06",
+        "scores": {
+          "chinese_score": 1446.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:56.471909"
+      },
+      {
+        "rank": "1",
+        "model": "ChatGPT-4o-latest (2025-03-26)",
+        "scores": {
+          "chinese_score": 1437.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:56.478095"
+      },
+      {
+        "rank": "1",
+        "model": "Grok-3-Preview-02-24",
+        "scores": {
+          "chinese_score": 1433.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:56.484932"
+      },
+      {
+        "rank": "1",
+        "model": "Gemini-2.5-Flash-Preview-04-17",
+        "scores": {
+          "chinese_score": 1421.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:56.491508"
+      },
+      {
+        "rank": "1",
+        "model": "Hunyuan-Turbos-20250416",
+        "scores": {
+          "chinese_score": 1416.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:56.498392"
+      },
+      {
+        "rank": "1",
+        "model": "GPT-4.5-Preview",
+        "scores": {
+          "chinese_score": 1416.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:56.504963"
+      },
+      {
+        "rank": "4",
+        "model": "DeepSeek-V3-0324",
+        "scores": {
+          "chinese_score": 1394.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:56.511329"
+      },
+      {
+        "rank": "5",
+        "model": "DeepSeek-R1",
+        "scores": {
+          "chinese_score": 1392.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:56.517818"
+      },
+      {
+        "rank": "5",
+        "model": "GLM-4-Plus-0111",
+        "scores": {
+          "chinese_score": 1382.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:56.531485"
+      },
+      {
+        "rank": "5",
+        "model": "GPT-4.1-2025-04-14",
+        "scores": {
+          "chinese_score": 1381.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:56.541404"
+      },
+      {
+        "rank": "6",
+        "model": "Gemini-2.0-Flash-001",
+        "scores": {
+          "chinese_score": 1386.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:56.548779"
+      },
+      {
+        "rank": "6",
+        "model": "Qwen3-235B-A22B",
+        "scores": {
+          "chinese_score": 1365.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:56.555772"
+      },
+      {
+        "rank": "7",
+        "model": "Qwen2.5-Max",
+        "scores": {
+          "chinese_score": 1376.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:56.562381"
+      },
+      {
+        "rank": "7",
+        "model": "QwQ-32B",
+        "scores": {
+          "chinese_score": 1369.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:56.569248"
+      },
+      {
+        "rank": "7",
+        "model": "o3-mini-high",
+        "scores": {
+          "chinese_score": 1364.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:56.575816"
+      },
+      {
+        "rank": "8",
+        "model": "Gemma-3-27B-it",
+        "scores": {
+          "chinese_score": 1356.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:56.583177"
+      },
+      {
+        "rank": "10",
+        "model": "Qwen-Plus-0125",
+        "scores": {
+          "chinese_score": 1346.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:56.589792"
+      },
+      {
+        "rank": "12",
+        "model": "o4-mini-2025-04-16",
+        "scores": {
+          "chinese_score": 1344.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:56.596228"
+      },
+      {
+        "rank": "13",
+        "model": "GPT-4.1-mini-2025-04-14",
+        "scores": {
+          "chinese_score": 1326.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:56.602802"
+      },
+      {
+        "rank": "11",
+        "model": "Qwen-VL-Max-1119",
+        "scores": {
+          "chinese_score": 1375.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:57.348791"
+      },
+      {
+        "rank": "1",
+        "model": "Gemini-2.5-Pro-Preview-05-06",
+        "scores": {
+          "chinese_score": 1375.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:57.361357"
+      },
+      {
+        "rank": "2",
+        "model": "Gemini-2.5-Flash-Preview-05-20",
+        "scores": {
+          "chinese_score": 1318.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:57.368114"
+      },
+      {
+        "rank": "2",
+        "model": "ChatGPT-4o-latest (2025-03-26)",
+        "scores": {
+          "chinese_score": 1310.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:57.374456"
+      },
+      {
+        "rank": "3",
+        "model": "GPT-4.1-2025-04-14",
+        "scores": {
+          "chinese_score": 1283.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:57.388004"
+      },
+      {
+        "rank": "5",
+        "model": "Gemini-2.5-Flash-Preview-04-17",
+        "scores": {
+          "chinese_score": 1274.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:57.394152"
+      },
+      {
+        "rank": "5",
+        "model": "o4-mini-2025-04-16",
+        "scores": {
+          "chinese_score": 1270.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:57.400186"
+      },
+      {
+        "rank": "6",
+        "model": "GPT-4.5-Preview",
+        "scores": {
+          "chinese_score": 1256.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:57.406657"
+      },
+      {
+        "rank": "7",
+        "model": "GPT-4.1-mini-2025-04-14",
+        "scores": {
+          "chinese_score": 1236.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:57.412733"
+      },
+      {
+        "rank": "9",
+        "model": "Gemini-2.0-Flash-001",
+        "scores": {
+          "chinese_score": 1224.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:57.424910"
+      },
+      {
+        "rank": "9",
+        "model": "Gemini-1.5-Pro-002",
+        "scores": {
+          "chinese_score": 1222.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:57.430959"
+      },
+      {
+        "rank": "9",
+        "model": "Qwen2.5-VL-32B-Instruct",
+        "scores": {
+          "chinese_score": 1214.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:57.436861"
+      },
+      {
+        "rank": "11",
+        "model": "Claude 3.7 Sonnet",
+        "scores": {
+          "chinese_score": 1208.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:57.443139"
+      },
+      {
+        "rank": "13",
+        "model": "GPT-4o-2024-05-13",
+        "scores": {
+          "chinese_score": 1206.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:57.449908"
+      },
+      {
+        "rank": "13",
+        "model": "Gemini-1.5-Flash-002",
+        "scores": {
+          "chinese_score": 1206.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:57.456525"
+      },
+      {
+        "rank": "14",
+        "model": "Step-1o-Vision-32k (highres)",
+        "scores": {
+          "chinese_score": 1187.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:57.463090"
+      },
+      {
+        "rank": "14",
+        "model": "Llama-4-Maverick-17B-128E-Instruct",
+        "scores": {
+          "chinese_score": 1181.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:57.469162"
+      },
+      {
+        "rank": "16",
+        "model": "Claude 3.5 Sonnet (20240620)",
+        "scores": {
+          "chinese_score": 1189.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:57.475239"
+      },
+      {
+        "rank": "17",
+        "model": "Claude 3.5 Sonnet (20241022)",
+        "scores": {
+          "chinese_score": 1183.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:57.481316"
+      },
+      {
+        "rank": "18",
+        "model": "Qwen2.5-VL-72B-Instruct",
+        "scores": {
+          "chinese_score": 1171.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:57.487376"
+      },
+      {
+        "rank": "18",
+        "model": "Llama-4-Scout-17B-16E-Instruct",
+        "scores": {
+          "chinese_score": 1161.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:57.493378"
+      },
+      {
+        "rank": "20",
+        "model": "Gemini-2.0-Flash-Lite",
+        "scores": {
+          "chinese_score": 1159.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:57.499353"
+      },
+      {
+        "rank": "21",
+        "model": "Pixtral-Large-2411",
+        "scores": {
+          "chinese_score": 1154.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:57.505646"
+      },
+      {
+        "rank": "22",
+        "model": "Gemini-1.5-Pro-001",
+        "scores": {
+          "chinese_score": 1151.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:57.511536"
+      },
+      {
+        "rank": "22",
+        "model": "GPT-4-Turbo-2024-04-09",
+        "scores": {
+          "chinese_score": 1151.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:57.517783"
+      },
+      {
+        "rank": "24",
+        "model": "Qwen-VL-Max-1119",
+        "scores": {
+          "chinese_score": 1128.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:57.524067"
+      },
+      {
+        "rank": "26",
+        "model": "GPT-4.1-nano-2025-04-14",
+        "scores": {
+          "chinese_score": 1123.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:57.530124"
+      },
+      {
+        "rank": "27",
+        "model": "GPT-4o-2024-08-06",
+        "scores": {
+          "chinese_score": 1126.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:57.536237"
+      },
+      {
+        "rank": "27",
+        "model": "GPT-4o-mini-2024-07-18",
+        "scores": {
+          "chinese_score": 1124.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:57.542376"
+      },
+      {
+        "rank": "27",
+        "model": "Step-1V-32K",
+        "scores": {
+          "chinese_score": 1111.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:57.548583"
+      },
+      {
+        "rank": "27",
+        "model": "Qwen2-VL-72b-Instruct",
+        "scores": {
+          "chinese_score": 1111.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:57.555287"
+      },
+      {
+        "rank": "30",
+        "model": "Gemini-1.5-Flash-8B-001",
+        "scores": {
+          "chinese_score": 1106.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:57.562461"
+      },
+      {
+        "rank": "34",
+        "model": "Claude 3 Opus",
+        "scores": {
+          "chinese_score": 1076.0
+        },
+        "source": "Arena Playwright (chinese)",
+        "category": "chinese",
+        "scraped_at": "2025-05-27T14:14:57.568645"
+      }
+    ]
+  }
+}

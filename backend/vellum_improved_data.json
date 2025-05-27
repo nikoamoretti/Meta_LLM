@@ -1,0 +1,186 @@
+{
+  "vellum": [
+    {
+      "model": "Grok 3 [Beta]",
+      "scores": {
+        "reasoning": 84.6,
+        "math": 93.3
+      },
+      "source": "Vellum AI"
+    },
+    {
+      "model": "Gemini 2.5 Pro",
+      "scores": {
+        "reasoning": 84.0,
+        "math": 92.0,
+        "adaptive_reasoning": 82.1,
+        "overall": 18.8
+      },
+      "source": "Vellum AI"
+    },
+    {
+      "model": "OpenAI o3",
+      "scores": {
+        "reasoning": 83.3,
+        "math": 91.6,
+        "swe_bench": 69.1,
+        "overall": 20.32
+      },
+      "source": "Vellum AI"
+    },
+    {
+      "model": "OpenAI o4-mini",
+      "scores": {
+        "reasoning": 81.4,
+        "math": 93.4,
+        "swe_bench": 68.1,
+        "overall": 14.28
+      },
+      "source": "Vellum AI"
+    },
+    {
+      "model": "OpenAI o3-mini",
+      "scores": {
+        "reasoning": 79.7,
+        "math": 87.3,
+        "overall": 14.0
+      },
+      "source": "Vellum AI"
+    },
+    {
+      "model": "Claude 4 Sonnet",
+      "scores": {
+        "swe_bench": 72.7,
+        "adaptive_reasoning": 75.0
+      },
+      "source": "Vellum AI"
+    },
+    {
+      "model": "Claude 4 Opus",
+      "scores": {
+        "swe_bench": 72.5,
+        "adaptive_reasoning": 67.9
+      },
+      "source": "Vellum AI"
+    },
+    {
+      "model": "Claude 3.7 Sonnet [R]",
+      "scores": {
+        "swe_bench": 70.3,
+        "adaptive_reasoning": 60.7
+      },
+      "source": "Vellum AI"
+    },
+    {
+      "model": "Llama 3.1 405b",
+      "scores": {
+        "tool_use": 81.1,
+        "speed": 969.0
+      },
+      "source": "Vellum AI"
+    },
+    {
+      "model": "Llama 3.3 70b",
+      "scores": {
+        "tool_use": 77.3,
+        "speed": 2500.0
+      },
+      "source": "Vellum AI"
+    },
+    {
+      "model": "GPT-4o",
+      "scores": {
+        "tool_use": 72.08
+      },
+      "source": "Vellum AI"
+    },
+    {
+      "model": "GPT-4.5",
+      "scores": {
+        "tool_use": 69.94
+      },
+      "source": "Vellum AI"
+    },
+    {
+      "model": "Nova Pro",
+      "scores": {
+        "tool_use": 68.4
+      },
+      "source": "Vellum AI"
+    },
+    {
+      "model": "Nemotron Ultra 253B",
+      "scores": {
+        "adaptive_reasoning": 57.1
+      },
+      "source": "Vellum AI"
+    },
+    {
+      "model": "Gemini 2.5 Flash",
+      "scores": {
+        "overall": 12.1
+      },
+      "source": "Vellum AI"
+    },
+    {
+      "model": "Llama 4 Scout",
+      "scores": {
+        "speed": 2600.0,
+        "latency": 0.33
+      },
+      "source": "Vellum AI"
+    },
+    {
+      "model": "Llama 3.1 70b",
+      "scores": {
+        "speed": 2100.0
+      },
+      "source": "Vellum AI"
+    },
+    {
+      "model": "Llama 3.1 8b",
+      "scores": {
+        "speed": 1800.0,
+        "latency": 0.32
+      },
+      "source": "Vellum AI"
+    },
+    {
+      "model": "Nova Micro",
+      "scores": {
+        "latency": 0.3,
+        "cost": 0.04
+      },
+      "source": "Vellum AI"
+    },
+    {
+      "model": "Gemini 2.0 Flash",
+      "scores": {
+        "latency": 0.34,
+        "cost": 0.1
+      },
+      "source": "Vellum AI"
+    },
+    {
+      "model": "GPT-4o mini",
+      "scores": {
+        "latency": 0.35
+      },
+      "source": "Vellum AI"
+    },
+    {
+      "model": "Gemma 3 27b",
+      "scores": {
+        "cost": 0.07
+      },
+      "source": "Vellum AI"
+    },
+    {
+      "model": "Gemini 1.5 Flash",
+      "scores": {
+        "cost": 0.075
+      },
+      "source": "Vellum AI"
+    }
+  ]
+}

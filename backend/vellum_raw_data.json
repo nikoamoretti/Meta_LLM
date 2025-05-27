@@ -1,0 +1,18 @@
+{
+  "vellum": [
+    {
+      "model": "GPT-4o72.08GPT",
+      "scores": {
+        "benchmark_score": 23.0
+      },
+      "source": "Vellum AI"
+    },
+    {
+      "model": "GPT-4.1",
+      "scores": {
+        "benchmark_score": 32.0
+      },
+      "source": "Vellum AI"
+    }
+  ]
+}
