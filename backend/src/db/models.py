@@ -5,14 +5,14 @@ Base = declarative_base()
 
 class Leaderboard(Base):
     __tablename__ = 'leaderboards'
-    id = Column(Integer, primary_key=True)
+    id = Column(Integer, primary_key=True, autoincrement=True)
     name = Column(Text, unique=True, nullable=False)
     category = Column(Text, nullable=False)
     # Add relationship to raw_scores if needed
 
 class RawScore(Base):
     __tablename__ = 'raw_scores'
-    id = Column(BigInteger, primary_key=True)
+    id = Column(Integer, primary_key=True, autoincrement=True)
     model_name = Column(Text, nullable=False)
     leaderboard_id = Column(Integer, ForeignKey('leaderboards.id'), nullable=False)
     benchmark = Column(Text, nullable=False)

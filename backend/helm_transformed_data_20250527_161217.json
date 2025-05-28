@@ -1,0 +1,1289 @@
+{
+  "extraction_info": {
+    "timestamp": "2025-05-27T16:12:17.494580",
+    "source": "Stanford HELM Classic",
+    "url": "https://crfm.stanford.edu/helm/classic/latest/#/leaderboard",
+    "total_models": 67,
+    "description": "Holistic Evaluation of Language Models - Academic benchmark data"
+  },
+  "models": [
+    {
+      "model_name": "Llama 2 (70B)",
+      "mean_win_rate": 0.944,
+      "benchmarks": {
+        "mmlu": 0.582,
+        "boolq": 0.886,
+        "narrativeqa": 0.77,
+        "naturalquestions_closed": 0.458,
+        "naturalquestions_open": 0.674,
+        "quac": 0.484,
+        "truthfulqa": 0.554,
+        "imdb": 0.961,
+        "civilcomments": 0.652,
+        "raft": 0.727
+      }
+    },
+    {
+      "model_name": "LLaMA (65B)",
+      "mean_win_rate": 0.908,
+      "benchmarks": {
+        "mmlu": 0.584,
+        "boolq": 0.871,
+        "narrativeqa": 0.755,
+        "naturalquestions_closed": 0.431,
+        "naturalquestions_open": 0.672,
+        "quac": 0.401,
+        "truthfulqa": 0.508,
+        "imdb": 0.962,
+        "civilcomments": 0.655,
+        "raft": 0.702
+      }
+    },
+    {
+      "model_name": "text-davinci-002",
+      "mean_win_rate": 0.905,
+      "benchmarks": {
+        "mmlu": 0.568,
+        "boolq": 0.877,
+        "narrativeqa": 0.727,
+        "naturalquestions_closed": 0.383,
+        "naturalquestions_open": 0.713,
+        "quac": 0.445,
+        "hellaswag": 0.815,
+        "openbookqa": 0.594,
+        "truthfulqa": 0.61,
+        "ms_marco_regular": 0.421,
+        "ms_marco_trec": 0.664,
+        "cnn_dailymail": 0.153,
+        "xsum": 0.144,
+        "imdb": 0.948,
+        "civilcomments": 0.668,
+        "raft": 0.733
+      }
+    },
+    {
+      "model_name": "Mistral v0.1 (7B)",
+      "mean_win_rate": 0.884,
+      "benchmarks": {
+        "mmlu": 0.572,
+        "boolq": 0.874,
+        "narrativeqa": 0.716,
+        "naturalquestions_closed": 0.365,
+        "naturalquestions_open": 0.687,
+        "quac": 0.423,
+        "truthfulqa": 0.422,
+        "imdb": 0.962,
+        "civilcomments": 0.624,
+        "raft": 0.707
+      }
+    },
+    {
+      "model_name": "Cohere Command beta (52.4B)",
+      "mean_win_rate": 0.874,
+      "benchmarks": {
+        "mmlu": 0.452,
+        "boolq": 0.856,
+        "narrativeqa": 0.752,
+        "naturalquestions_closed": 0.372,
+        "naturalquestions_open": 0.76,
+        "quac": 0.432,
+        "hellaswag": 0.811,
+        "openbookqa": 0.582,
+        "truthfulqa": 0.269,
+        "ms_marco_regular": 0.472,
+        "ms_marco_trec": 0.762,
+        "cnn_dailymail": 0.161,
+        "xsum": 0.152,
+        "imdb": 0.96,
+        "civilcomments": 0.601,
+        "raft": 0.667
+      }
+    },
+    {
+      "model_name": "text-davinci-003",
+      "mean_win_rate": 0.872,
+      "benchmarks": {
+        "mmlu": 0.569,
+        "boolq": 0.881,
+        "narrativeqa": 0.727,
+        "naturalquestions_closed": 0.406,
+        "naturalquestions_open": 0.77,
+        "quac": 0.525,
+        "hellaswag": 0.822,
+        "openbookqa": 0.646,
+        "truthfulqa": 0.593,
+        "ms_marco_regular": 0.368,
+        "ms_marco_trec": 0.644,
+        "cnn_dailymail": 0.156,
+        "xsum": 0.124,
+        "imdb": 0.848,
+        "civilcomments": 0.684,
+        "raft": 0.759
+      }
+    },
+    {
+      "model_name": "Jurassic-2 Jumbo (178B)",
+      "mean_win_rate": 0.824,
+      "benchmarks": {
+        "mmlu": 0.48,
+        "boolq": 0.829,
+        "narrativeqa": 0.733,
+        "naturalquestions_closed": 0.385,
+        "naturalquestions_open": 0.669,
+        "quac": 0.435,
+        "hellaswag": 0.788,
+        "openbookqa": 0.558,
+        "truthfulqa": 0.437,
+        "ms_marco_regular": 0.398,
+        "ms_marco_trec": 0.661,
+        "cnn_dailymail": 0.149,
+        "xsum": 0.182,
+        "imdb": 0.938,
+        "civilcomments": 0.57,
+        "raft": 0.746
+      }
+    },
+    {
+      "model_name": "Llama 2 (13B)",
+      "mean_win_rate": 0.823,
+      "benchmarks": {
+        "mmlu": 0.507,
+        "boolq": 0.811,
+        "narrativeqa": 0.744,
+        "naturalquestions_closed": 0.376,
+        "naturalquestions_open": 0.637,
+        "quac": 0.424,
+        "truthfulqa": 0.33,
+        "imdb": 0.962,
+        "civilcomments": 0.588,
+        "raft": 0.707
+      }
+    },
+    {
+      "model_name": "TNLG v2 (530B)",
+      "mean_win_rate": 0.787,
+      "benchmarks": {
+        "mmlu": 0.469,
+        "boolq": 0.809,
+        "narrativeqa": 0.722,
+        "naturalquestions_closed": 0.384,
+        "naturalquestions_open": 0.642,
+        "quac": 0.39,
+        "hellaswag": 0.799,
+        "openbookqa": 0.562,
+        "truthfulqa": 0.251,
+        "ms_marco_regular": 0.377,
+        "ms_marco_trec": 0.643,
+        "cnn_dailymail": 0.161,
+        "xsum": 0.169,
+        "imdb": 0.941,
+        "civilcomments": 0.601,
+        "raft": 0.679
+      }
+    },
+    {
+      "model_name": "gpt-3.5-turbo-0613",
+      "mean_win_rate": 0.783,
+      "benchmarks": {
+        "mmlu": 0.391,
+        "boolq": 0.87,
+        "narrativeqa": 0.625,
+        "naturalquestions_closed": 0.348,
+        "naturalquestions_open": 0.675,
+        "quac": 0.485,
+        "truthfulqa": 0.339,
+        "imdb": 0.943,
+        "civilcomments": 0.696,
+        "raft": 0.748
+      }
+    },
+    {
+      "model_name": "LLaMA (30B)",
+      "mean_win_rate": 0.781,
+      "benchmarks": {
+        "mmlu": 0.531,
+        "boolq": 0.861,
+        "narrativeqa": 0.752,
+        "naturalquestions_closed": 0.408,
+        "naturalquestions_open": 0.666,
+        "quac": 0.39,
+        "truthfulqa": 0.344,
+        "imdb": 0.927,
+        "civilcomments": 0.549,
+        "raft": 0.752
+      }
+    },
+    {
+      "model_name": "Anthropic-LM v4-s3 (52B)",
+      "mean_win_rate": 0.78,
+      "benchmarks": {
+        "mmlu": 0.481,
+        "boolq": 0.815,
+        "narrativeqa": 0.728,
+        "naturalquestions_closed": 0.288,
+        "naturalquestions_open": 0.686,
+        "quac": 0.431,
+        "hellaswag": 0.807,
+        "openbookqa": 0.558,
+        "truthfulqa": 0.368,
+        "cnn_dailymail": 0.154,
+        "xsum": 0.134,
+        "imdb": 0.934,
+        "civilcomments": 0.61,
+        "raft": 0.699
+      }
+    },
+    {
+      "model_name": "gpt-3.5-turbo-0301",
+      "mean_win_rate": 0.76,
+      "benchmarks": {
+        "mmlu": 0.59,
+        "boolq": 0.74,
+        "narrativeqa": 0.663,
+        "naturalquestions_closed": 0.39,
+        "naturalquestions_open": 0.624,
+        "quac": 0.512,
+        "truthfulqa": 0.609,
+        "imdb": 0.899,
+        "civilcomments": 0.674,
+        "raft": 0.768
+      }
+    },
+    {
+      "model_name": "Jurassic-2 Grande (17B)",
+      "mean_win_rate": 0.743,
+      "benchmarks": {
+        "mmlu": 0.475,
+        "boolq": 0.826,
+        "narrativeqa": 0.737,
+        "naturalquestions_closed": 0.356,
+        "naturalquestions_open": 0.639,
+        "quac": 0.418,
+        "hellaswag": 0.781,
+        "openbookqa": 0.542,
+        "truthfulqa": 0.348,
+        "ms_marco_regular": 0.293,
+        "ms_marco_trec": 0.514,
+        "cnn_dailymail": 0.144,
+        "xsum": 0.167,
+        "imdb": 0.938,
+        "civilcomments": 0.547,
+        "raft": 0.712
+      }
+    },
+    {
+      "model_name": "Palmyra X (43B)",
+      "mean_win_rate": 0.732,
+      "benchmarks": {
+        "mmlu": 0.609,
+        "boolq": 0.896,
+        "narrativeqa": 0.742,
+        "naturalquestions_closed": 0.413,
+        "quac": 0.473,
+        "truthfulqa": 0.616,
+        "cnn_dailymail": 0.049,
+        "xsum": 0.149,
+        "imdb": 0.935,
+        "civilcomments": 0.008,
+        "raft": 0.701
+      }
+    },
+    {
+      "model_name": "Falcon (40B)",
+      "mean_win_rate": 0.729,
+      "benchmarks": {
+        "mmlu": 0.509,
+        "boolq": 0.819,
+        "narrativeqa": 0.673,
+        "naturalquestions_closed": 0.392,
+        "naturalquestions_open": 0.675,
+        "quac": 0.307,
+        "truthfulqa": 0.353,
+        "imdb": 0.959,
+        "civilcomments": 0.552,
+        "raft": 0.661
+      }
+    },
+    {
+      "model_name": "Falcon-Instruct (40B)",
+      "mean_win_rate": 0.727,
+      "benchmarks": {
+        "mmlu": 0.497,
+        "boolq": 0.829,
+        "narrativeqa": 0.625,
+        "naturalquestions_closed": 0.377,
+        "naturalquestions_open": 0.666,
+        "quac": 0.371,
+        "truthfulqa": 0.384,
+        "imdb": 0.959,
+        "civilcomments": 0.603,
+        "raft": 0.586
+      }
+    },
+    {
+      "model_name": "MPT-Instruct (30B)",
+      "mean_win_rate": 0.716,
+      "benchmarks": {
+        "mmlu": 0.444,
+        "boolq": 0.85,
+        "narrativeqa": 0.733,
+        "naturalquestions_closed": 0.304,
+        "naturalquestions_open": 0.697,
+        "quac": 0.327,
+        "truthfulqa": 0.234,
+        "imdb": 0.956,
+        "civilcomments": 0.573,
+        "raft": 0.68
+      }
+    },
+    {
+      "model_name": "MPT (30B)",
+      "mean_win_rate": 0.714,
+      "benchmarks": {
+        "mmlu": 0.437,
+        "boolq": 0.704,
+        "narrativeqa": 0.732,
+        "naturalquestions_closed": 0.347,
+        "naturalquestions_open": 0.673,
+        "quac": 0.393,
+        "truthfulqa": 0.231,
+        "imdb": 0.959,
+        "civilcomments": 0.599,
+        "raft": 0.723
+      }
+    },
+    {
+      "model_name": "J1-Grande v2 beta (17B)",
+      "mean_win_rate": 0.706,
+      "benchmarks": {
+        "mmlu": 0.445,
+        "boolq": 0.812,
+        "narrativeqa": 0.725,
+        "naturalquestions_closed": 0.337,
+        "naturalquestions_open": 0.625,
+        "quac": 0.392,
+        "hellaswag": 0.764,
+        "openbookqa": 0.56,
+        "truthfulqa": 0.306,
+        "ms_marco_regular": 0.285,
+        "ms_marco_trec": 0.46,
+        "cnn_dailymail": 0.146,
+        "xsum": 0.152,
+        "imdb": 0.957,
+        "civilcomments": 0.546,
+        "raft": 0.679
+      }
+    },
+    {
+      "model_name": "Vicuna v1.3 (13B)",
+      "mean_win_rate": 0.706,
+      "benchmarks": {
+        "mmlu": 0.462,
+        "boolq": 0.808,
+        "narrativeqa": 0.691,
+        "naturalquestions_closed": 0.346,
+        "naturalquestions_open": 0.686,
+        "quac": 0.403,
+        "truthfulqa": 0.385,
+        "imdb": 0.762,
+        "civilcomments": 0.645,
+        "raft": 0.657
+      }
+    },
+    {
+      "model_name": "Cohere Command beta (6.1B)",
+      "mean_win_rate": 0.675,
+      "benchmarks": {
+        "mmlu": 0.406,
+        "boolq": 0.798,
+        "narrativeqa": 0.709,
+        "naturalquestions_closed": 0.229,
+        "naturalquestions_open": 0.717,
+        "quac": 0.375,
+        "hellaswag": 0.752,
+        "openbookqa": 0.55,
+        "truthfulqa": 0.203,
+        "ms_marco_regular": 0.434,
+        "ms_marco_trec": 0.709,
+        "cnn_dailymail": 0.153,
+        "xsum": 0.122,
+        "imdb": 0.961,
+        "civilcomments": 0.54,
+        "raft": 0.634
+      }
+    },
+    {
+      "model_name": "Cohere xlarge v20221108 (52.4B)",
+      "mean_win_rate": 0.664,
+      "benchmarks": {
+        "mmlu": 0.382,
+        "boolq": 0.762,
+        "narrativeqa": 0.672,
+        "naturalquestions_closed": 0.361,
+        "naturalquestions_open": 0.628,
+        "quac": 0.374,
+        "hellaswag": 0.81,
+        "openbookqa": 0.588,
+        "truthfulqa": 0.169,
+        "ms_marco_regular": 0.315,
+        "ms_marco_trec": 0.55,
+        "cnn_dailymail": 0.153,
+        "xsum": 0.153,
+        "imdb": 0.956,
+        "civilcomments": 0.524,
+        "raft": 0.624
+      }
+    },
+    {
+      "model_name": "Luminous Supreme (70B)",
+      "mean_win_rate": 0.662,
+      "benchmarks": {
+        "mmlu": 0.38,
+        "boolq": 0.775,
+        "narrativeqa": 0.711,
+        "naturalquestions_closed": 0.293,
+        "naturalquestions_open": 0.649,
+        "quac": 0.37,
+        "truthfulqa": 0.222,
+        "cnn_dailymail": 0.15,
+        "xsum": 0.136,
+        "imdb": 0.959,
+        "civilcomments": 0.562,
+        "raft": 0.653
+      }
+    },
+    {
+      "model_name": "Vicuna v1.3 (7B)",
+      "mean_win_rate": 0.625,
+      "benchmarks": {
+        "mmlu": 0.434,
+        "boolq": 0.76,
+        "narrativeqa": 0.643,
+        "naturalquestions_closed": 0.287,
+        "naturalquestions_open": 0.634,
+        "quac": 0.392,
+        "truthfulqa": 0.292,
+        "imdb": 0.916,
+        "civilcomments": 0.62,
+        "raft": 0.693
+      }
+    },
+    {
+      "model_name": "OPT (175B)",
+      "mean_win_rate": 0.609,
+      "benchmarks": {
+        "mmlu": 0.318,
+        "boolq": 0.793,
+        "narrativeqa": 0.671,
+        "naturalquestions_closed": 0.297,
+        "naturalquestions_open": 0.615,
+        "quac": 0.36,
+        "hellaswag": 0.791,
+        "openbookqa": 0.586,
+        "truthfulqa": 0.25,
+        "ms_marco_regular": 0.288,
+        "ms_marco_trec": 0.448,
+        "cnn_dailymail": 0.146,
+        "xsum": 0.155,
+        "imdb": 0.947,
+        "civilcomments": 0.505,
+        "raft": 0.606
+      }
+    },
+    {
+      "model_name": "Llama 2 (7B)",
+      "mean_win_rate": 0.607,
+      "benchmarks": {
+        "mmlu": 0.431,
+        "boolq": 0.762,
+        "narrativeqa": 0.691,
+        "naturalquestions_closed": 0.337,
+        "naturalquestions_open": 0.611,
+        "quac": 0.406,
+        "truthfulqa": 0.272,
+        "imdb": 0.907,
+        "civilcomments": 0.562,
+        "raft": 0.643
+      }
+    },
+    {
+      "model_name": "LLaMA (13B)",
+      "mean_win_rate": 0.595,
+      "benchmarks": {
+        "mmlu": 0.422,
+        "boolq": 0.714,
+        "narrativeqa": 0.711,
+        "naturalquestions_closed": 0.346,
+        "naturalquestions_open": 0.614,
+        "quac": 0.347,
+        "truthfulqa": 0.324,
+        "imdb": 0.928,
+        "civilcomments": 0.6,
+        "raft": 0.643
+      }
+    },
+    {
+      "model_name": "InstructPalmyra (30B)",
+      "mean_win_rate": 0.568,
+      "benchmarks": {
+        "mmlu": 0.403,
+        "boolq": 0.751,
+        "narrativeqa": 0.496,
+        "naturalquestions_closed": 0.33,
+        "naturalquestions_open": 0.682,
+        "quac": 0.433,
+        "truthfulqa": 0.185,
+        "cnn_dailymail": 0.152,
+        "xsum": 0.104,
+        "imdb": 0.94,
+        "civilcomments": 0.555,
+        "raft": 0.652
+      }
+    },
+    {
+      "model_name": "Cohere xlarge v20220609 (52.4B)",
+      "mean_win_rate": 0.56,
+      "benchmarks": {
+        "mmlu": 0.353,
+        "boolq": 0.718,
+        "narrativeqa": 0.65,
+        "naturalquestions_closed": 0.312,
+        "naturalquestions_open": 0.595,
+        "quac": 0.361,
+        "hellaswag": 0.811,
+        "openbookqa": 0.55,
+        "truthfulqa": 0.198,
+        "ms_marco_regular": 0.273,
+        "ms_marco_trec": 0.459,
+        "cnn_dailymail": 0.144,
+        "xsum": 0.129,
+        "imdb": 0.956,
+        "civilcomments": 0.532,
+        "raft": 0.633
+      }
+    },
+    {
+      "model_name": "Jurassic-2 Large (7.5B)",
+      "mean_win_rate": 0.553,
+      "benchmarks": {
+        "mmlu": 0.339,
+        "boolq": 0.742,
+        "naturalquestions_closed": 0.274,
+        "naturalquestions_open": 0.589,
+        "hellaswag": 0.729,
+        "openbookqa": 0.53,
+        "truthfulqa": 0.245,
+        "ms_marco_regular": 0.247,
+        "ms_marco_trec": 0.464,
+        "cnn_dailymail": 0.136,
+        "xsum": 0.142,
+        "imdb": 0.956,
+        "civilcomments": 0.57,
+        "raft": 0.622
+      }
+    },
+    {
+      "model_name": "davinci (175B)",
+      "mean_win_rate": 0.538,
+      "benchmarks": {
+        "mmlu": 0.422,
+        "boolq": 0.722,
+        "narrativeqa": 0.687,
+        "naturalquestions_closed": 0.329,
+        "naturalquestions_open": 0.625,
+        "quac": 0.36,
+        "hellaswag": 0.775,
+        "openbookqa": 0.586,
+        "truthfulqa": 0.194,
+        "ms_marco_regular": 0.211,
+        "ms_marco_trec": 0.378,
+        "cnn_dailymail": 0.127,
+        "xsum": 0.126,
+        "imdb": 0.933,
+        "civilcomments": 0.532,
+        "raft": 0.642
+      }
+    },
+    {
+      "model_name": "LLaMA (7B)",
+      "mean_win_rate": 0.533,
+      "benchmarks": {
+        "mmlu": 0.321,
+        "boolq": 0.756,
+        "narrativeqa": 0.669,
+        "naturalquestions_closed": 0.297,
+        "naturalquestions_open": 0.589,
+        "quac": 0.338,
+        "truthfulqa": 0.28,
+        "imdb": 0.947,
+        "civilcomments": 0.563,
+        "raft": 0.573
+      }
+    },
+    {
+      "model_name": "RedPajama-INCITE-Instruct (7B)",
+      "mean_win_rate": 0.524,
+      "benchmarks": {
+        "mmlu": 0.363,
+        "boolq": 0.705,
+        "narrativeqa": 0.638,
+        "naturalquestions_closed": 0.232,
+        "naturalquestions_open": 0.659,
+        "quac": 0.26,
+        "truthfulqa": 0.243,
+        "imdb": 0.927,
+        "civilcomments": 0.664,
+        "raft": 0.695
+      }
+    },
+    {
+      "model_name": "J1-Jumbo v1 (178B)",
+      "mean_win_rate": 0.517,
+      "benchmarks": {
+        "mmlu": 0.259,
+        "boolq": 0.776,
+        "narrativeqa": 0.695,
+        "naturalquestions_closed": 0.293,
+        "naturalquestions_open": 0.595,
+        "quac": 0.358,
+        "hellaswag": 0.765,
+        "openbookqa": 0.534,
+        "truthfulqa": 0.175,
+        "ms_marco_regular": 0.21,
+        "ms_marco_trec": 0.363,
+        "cnn_dailymail": 0.144,
+        "xsum": 0.129,
+        "imdb": 0.943,
+        "civilcomments": 0.553,
+        "raft": 0.681
+      }
+    },
+    {
+      "model_name": "GLM (130B)",
+      "mean_win_rate": 0.512,
+      "benchmarks": {
+        "mmlu": 0.344,
+        "boolq": 0.784,
+        "narrativeqa": 0.706,
+        "naturalquestions_closed": 0.148,
+        "naturalquestions_open": 0.642,
+        "quac": 0.272,
+        "truthfulqa": 0.218,
+        "cnn_dailymail": 0.154,
+        "xsum": 0.132,
+        "imdb": 0.955,
+        "civilcomments": 0.5,
+        "raft": 0.598
+      }
+    },
+    {
+      "model_name": "Luminous Extended (30B)",
+      "mean_win_rate": 0.485,
+      "benchmarks": {
+        "mmlu": 0.321,
+        "boolq": 0.767,
+        "narrativeqa": 0.665,
+        "naturalquestions_closed": 0.254,
+        "naturalquestions_open": 0.609,
+        "quac": 0.349,
+        "truthfulqa": 0.221,
+        "cnn_dailymail": 0.139,
+        "xsum": 0.124,
+        "imdb": 0.947,
+        "civilcomments": 0.524,
+        "raft": 0.523
+      }
+    },
+    {
+      "model_name": "OPT (66B)",
+      "mean_win_rate": 0.448,
+      "benchmarks": {
+        "mmlu": 0.276,
+        "boolq": 0.76,
+        "narrativeqa": 0.638,
+        "naturalquestions_closed": 0.258,
+        "naturalquestions_open": 0.596,
+        "quac": 0.357,
+        "hellaswag": 0.745,
+        "openbookqa": 0.534,
+        "truthfulqa": 0.201,
+        "ms_marco_regular": 0.237,
+        "ms_marco_trec": 0.482,
+        "cnn_dailymail": 0.136,
+        "xsum": 0.126,
+        "imdb": 0.917,
+        "civilcomments": 0.506,
+        "raft": 0.557
+      }
+    },
+    {
+      "model_name": "BLOOM (176B)",
+      "mean_win_rate": 0.446,
+      "benchmarks": {
+        "mmlu": 0.299,
+        "boolq": 0.704,
+        "narrativeqa": 0.662,
+        "naturalquestions_closed": 0.216,
+        "naturalquestions_open": 0.621,
+        "quac": 0.361,
+        "hellaswag": 0.744,
+        "openbookqa": 0.534,
+        "truthfulqa": 0.205,
+        "ms_marco_regular": 0.236,
+        "ms_marco_trec": 0.386,
+        "cnn_dailymail": 0.08,
+        "xsum": 0.03,
+        "imdb": 0.945,
+        "civilcomments": 0.62,
+        "raft": 0.592
+      }
+    },
+    {
+      "model_name": "J1-Grande v1 (17B)",
+      "mean_win_rate": 0.433,
+      "benchmarks": {
+        "mmlu": 0.27,
+        "boolq": 0.722,
+        "narrativeqa": 0.672,
+        "naturalquestions_closed": 0.233,
+        "naturalquestions_open": 0.578,
+        "quac": 0.362,
+        "hellaswag": 0.739,
+        "openbookqa": 0.52,
+        "truthfulqa": 0.193,
+        "ms_marco_regular": 0.161,
+        "ms_marco_trec": 0.341,
+        "cnn_dailymail": 0.143,
+        "xsum": 0.122,
+        "imdb": 0.953,
+        "civilcomments": 0.529,
+        "raft": 0.658
+      }
+    },
+    {
+      "model_name": "Alpaca (7B)",
+      "mean_win_rate": 0.381,
+      "benchmarks": {
+        "mmlu": 0.385,
+        "boolq": 0.778,
+        "narrativeqa": 0.396,
+        "naturalquestions_closed": 0.266,
+        "naturalquestions_open": 0.592,
+        "quac": 0.27,
+        "truthfulqa": 0.243,
+        "imdb": 0.738,
+        "civilcomments": 0.566,
+        "raft": 0.486
+      }
+    },
+    {
+      "model_name": "Falcon (7B)",
+      "mean_win_rate": 0.378,
+      "benchmarks": {
+        "mmlu": 0.286,
+        "boolq": 0.753,
+        "narrativeqa": 0.621,
+        "naturalquestions_closed": 0.285,
+        "naturalquestions_open": 0.579,
+        "quac": 0.332,
+        "truthfulqa": 0.234,
+        "imdb": 0.836,
+        "civilcomments": 0.514,
+        "raft": 0.602
+      }
+    },
+    {
+      "model_name": "RedPajama-INCITE-Base (7B)",
+      "mean_win_rate": 0.378,
+      "benchmarks": {
+        "mmlu": 0.302,
+        "boolq": 0.713,
+        "narrativeqa": 0.617,
+        "naturalquestions_closed": 0.25,
+        "naturalquestions_open": 0.586,
+        "quac": 0.336,
+        "truthfulqa": 0.205,
+        "imdb": 0.752,
+        "civilcomments": 0.547,
+        "raft": 0.648
+      }
+    },
+    {
+      "model_name": "Cohere large v20220720 (13.1B)",
+      "mean_win_rate": 0.372,
+      "benchmarks": {
+        "mmlu": 0.324,
+        "boolq": 0.725,
+        "narrativeqa": 0.625,
+        "naturalquestions_closed": 0.232,
+        "naturalquestions_open": 0.573,
+        "quac": 0.338,
+        "hellaswag": 0.736,
+        "openbookqa": 0.542,
+        "truthfulqa": 0.181,
+        "ms_marco_regular": 0.19,
+        "ms_marco_trec": 0.33,
+        "cnn_dailymail": 0.126,
+        "xsum": 0.108,
+        "imdb": 0.933,
+        "civilcomments": 0.507,
+        "raft": 0.596
+      }
+    },
+    {
+      "model_name": "RedPajama-INCITE-Instruct-v1 (3B)",
+      "mean_win_rate": 0.366,
+      "benchmarks": {
+        "mmlu": 0.257,
+        "boolq": 0.677,
+        "narrativeqa": 0.638,
+        "naturalquestions_closed": 0.203,
+        "naturalquestions_open": 0.637,
+        "quac": 0.259,
+        "truthfulqa": 0.208,
+        "imdb": 0.894,
+        "civilcomments": 0.549,
+        "raft": 0.661
+      }
+    },
+    {
+      "model_name": "text-curie-001",
+      "mean_win_rate": 0.36,
+      "benchmarks": {
+        "mmlu": 0.237,
+        "boolq": 0.62,
+        "narrativeqa": 0.582,
+        "naturalquestions_closed": 0.175,
+        "naturalquestions_open": 0.571,
+        "quac": 0.358,
+        "hellaswag": 0.676,
+        "openbookqa": 0.514,
+        "truthfulqa": 0.257,
+        "ms_marco_regular": 0.271,
+        "ms_marco_trec": 0.507,
+        "cnn_dailymail": 0.152,
+        "xsum": 0.076,
+        "imdb": 0.923,
+        "civilcomments": 0.537,
+        "raft": 0.489
+      }
+    },
+    {
+      "model_name": "GPT-NeoX (20B)",
+      "mean_win_rate": 0.351,
+      "benchmarks": {
+        "mmlu": 0.276,
+        "boolq": 0.683,
+        "narrativeqa": 0.599,
+        "naturalquestions_closed": 0.193,
+        "naturalquestions_open": 0.596,
+        "quac": 0.326,
+        "hellaswag": 0.718,
+        "openbookqa": 0.524,
+        "truthfulqa": 0.216,
+        "ms_marco_regular": 0.184,
+        "ms_marco_trec": 0.398,
+        "cnn_dailymail": 0.123,
+        "xsum": 0.102,
+        "imdb": 0.948,
+        "civilcomments": 0.516,
+        "raft": 0.505
+      }
+    },
+    {
+      "model_name": "Luminous Base (13B)",
+      "mean_win_rate": 0.315,
+      "benchmarks": {
+        "mmlu": 0.27,
+        "boolq": 0.719,
+        "narrativeqa": 0.605,
+        "naturalquestions_closed": 0.202,
+        "naturalquestions_open": 0.568,
+        "quac": 0.334,
+        "truthfulqa": 0.182,
+        "cnn_dailymail": 0.11,
+        "xsum": 0.105,
+        "imdb": 0.939,
+        "civilcomments": 0.544,
+        "raft": 0.473
+      }
+    },
+    {
+      "model_name": "Cohere medium v20221108 (6.1B)",
+      "mean_win_rate": 0.312,
+      "benchmarks": {
+        "mmlu": 0.254,
+        "boolq": 0.7,
+        "narrativeqa": 0.61,
+        "naturalquestions_closed": 0.199,
+        "naturalquestions_open": 0.517,
+        "quac": 0.314,
+        "hellaswag": 0.726,
+        "openbookqa": 0.538,
+        "truthfulqa": 0.215,
+        "ms_marco_regular": 0.175,
+        "ms_marco_trec": 0.373,
+        "cnn_dailymail": 0.121,
+        "xsum": 0.099,
+        "imdb": 0.935,
+        "civilcomments": 0.5,
+        "raft": 0.591
+      }
+    },
+    {
+      "model_name": "RedPajama-INCITE-Base-v1 (3B)",
+      "mean_win_rate": 0.311,
+      "benchmarks": {
+        "mmlu": 0.263,
+        "boolq": 0.685,
+        "narrativeqa": 0.555,
+        "naturalquestions_closed": 0.207,
+        "naturalquestions_open": 0.52,
+        "quac": 0.309,
+        "truthfulqa": 0.277,
+        "imdb": 0.907,
+        "civilcomments": 0.549,
+        "raft": 0.502
+      }
+    },
+    {
+      "model_name": "TNLG v2 (6.7B)",
+      "mean_win_rate": 0.309,
+      "benchmarks": {
+        "mmlu": 0.242,
+        "boolq": 0.698,
+        "narrativeqa": 0.631,
+        "naturalquestions_closed": 0.21,
+        "naturalquestions_open": 0.561,
+        "quac": 0.345,
+        "hellaswag": 0.704,
+        "openbookqa": 0.478,
+        "truthfulqa": 0.167,
+        "ms_marco_regular": 0.158,
+        "ms_marco_trec": 0.332,
+        "cnn_dailymail": 0.146,
+        "xsum": 0.11,
+        "imdb": 0.927,
+        "civilcomments": 0.532,
+        "raft": 0.525
+      }
+    },
+    {
+      "model_name": "J1-Large v1 (7.5B)",
+      "mean_win_rate": 0.285,
+      "benchmarks": {
+        "mmlu": 0.241,
+        "boolq": 0.683,
+        "narrativeqa": 0.623,
+        "naturalquestions_closed": 0.19,
+        "naturalquestions_open": 0.532,
+        "quac": 0.328,
+        "hellaswag": 0.7,
+        "openbookqa": 0.514,
+        "truthfulqa": 0.197,
+        "ms_marco_regular": 0.147,
+        "ms_marco_trec": 0.292,
+        "cnn_dailymail": 0.134,
+        "xsum": 0.102,
+        "imdb": 0.956,
+        "civilcomments": 0.532,
+        "raft": 0.545
+      }
+    },
+    {
+      "model_name": "GPT-J (6B)",
+      "mean_win_rate": 0.273,
+      "benchmarks": {
+        "mmlu": 0.249,
+        "boolq": 0.649,
+        "narrativeqa": 0.545,
+        "naturalquestions_closed": 0.156,
+        "naturalquestions_open": 0.559,
+        "quac": 0.33,
+        "hellaswag": 0.663,
+        "openbookqa": 0.514,
+        "truthfulqa": 0.199,
+        "ms_marco_regular": 0.152,
+        "ms_marco_trec": 0.345,
+        "cnn_dailymail": 0.131,
+        "xsum": 0.096,
+        "imdb": 0.939,
+        "civilcomments": 0.52,
+        "raft": 0.619
+      }
+    },
+    {
+      "model_name": "Pythia (12B)",
+      "mean_win_rate": 0.257,
+      "benchmarks": {
+        "mmlu": 0.274,
+        "boolq": 0.662,
+        "narrativeqa": 0.596,
+        "naturalquestions_closed": 0.175,
+        "naturalquestions_open": 0.581,
+        "quac": 0.313,
+        "truthfulqa": 0.177,
+        "imdb": 0.931,
+        "civilcomments": 0.531,
+        "raft": 0.514
+      }
+    },
+    {
+      "model_name": "curie (6.7B)",
+      "mean_win_rate": 0.247,
+      "benchmarks": {
+        "mmlu": 0.243,
+        "boolq": 0.656,
+        "narrativeqa": 0.604,
+        "naturalquestions_closed": 0.199,
+        "naturalquestions_open": 0.552,
+        "quac": 0.321,
+        "hellaswag": 0.682,
+        "openbookqa": 0.502,
+        "truthfulqa": 0.232,
+        "ms_marco_regular": 0.162,
+        "ms_marco_trec": 0.3,
+        "cnn_dailymail": 0.113,
+        "xsum": 0.091,
+        "imdb": 0.889,
+        "civilcomments": 0.539,
+        "raft": 0.49
+      }
+    },
+    {
+      "model_name": "Falcon-Instruct (7B)",
+      "mean_win_rate": 0.244,
+      "benchmarks": {
+        "mmlu": 0.275,
+        "boolq": 0.72,
+        "narrativeqa": 0.476,
+        "naturalquestions_closed": 0.194,
+        "naturalquestions_open": 0.449,
+        "quac": 0.311,
+        "truthfulqa": 0.213,
+        "imdb": 0.852,
+        "civilcomments": 0.511,
+        "raft": 0.523
+      }
+    },
+    {
+      "model_name": "Cohere medium v20220720 (6.1B)",
+      "mean_win_rate": 0.23,
+      "benchmarks": {
+        "mmlu": 0.279,
+        "boolq": 0.659,
+        "narrativeqa": 0.559,
+        "naturalquestions_closed": 0.177,
+        "naturalquestions_open": 0.504,
+        "quac": 0.279,
+        "hellaswag": 0.706,
+        "openbookqa": 0.496,
+        "truthfulqa": 0.19,
+        "ms_marco_regular": 0.152,
+        "ms_marco_trec": 0.374,
+        "cnn_dailymail": 0.077,
+        "xsum": 0.087,
+        "imdb": 0.935,
+        "civilcomments": 0.504,
+        "raft": 0.52
+      }
+    },
+    {
+      "model_name": "text-babbage-001",
+      "mean_win_rate": 0.229,
+      "benchmarks": {
+        "mmlu": 0.229,
+        "boolq": 0.451,
+        "narrativeqa": 0.429,
+        "naturalquestions_closed": 0.07,
+        "naturalquestions_open": 0.33,
+        "quac": 0.284,
+        "hellaswag": 0.561,
+        "openbookqa": 0.452,
+        "truthfulqa": 0.233,
+        "ms_marco_regular": 0.208,
+        "ms_marco_trec": 0.449,
+        "cnn_dailymail": 0.151,
+        "xsum": 0.046,
+        "imdb": 0.913,
+        "civilcomments": 0.499,
+        "raft": 0.509
+      }
+    },
+    {
+      "model_name": "T0pp (11B)",
+      "mean_win_rate": 0.197,
+      "benchmarks": {
+        "mmlu": 0.407,
+        "boolq": 0.0,
+        "narrativeqa": 0.151,
+        "naturalquestions_closed": 0.039,
+        "naturalquestions_open": 0.19,
+        "quac": 0.121,
+        "truthfulqa": 0.377,
+        "cnn_dailymail": 0.122,
+        "xsum": 0.09,
+        "imdb": 0.207,
+        "civilcomments": 0.234,
+        "raft": 0.118
+      }
+    },
+    {
+      "model_name": "Pythia (6.9B)",
+      "mean_win_rate": 0.196,
+      "benchmarks": {
+        "mmlu": 0.236,
+        "boolq": 0.631,
+        "narrativeqa": 0.528,
+        "naturalquestions_closed": 0.142,
+        "naturalquestions_open": 0.539,
+        "quac": 0.296,
+        "truthfulqa": 0.213,
+        "imdb": 0.928,
+        "civilcomments": 0.511,
+        "raft": 0.502
+      }
+    },
+    {
+      "model_name": "UL2 (20B)",
+      "mean_win_rate": 0.167,
+      "benchmarks": {
+        "mmlu": 0.291,
+        "boolq": 0.746,
+        "narrativeqa": 0.083,
+        "naturalquestions_closed": 0.204,
+        "naturalquestions_open": 0.349,
+        "quac": 0.144,
+        "truthfulqa": 0.193,
+        "cnn_dailymail": 0.03,
+        "xsum": 0.058,
+        "imdb": 0.337,
+        "civilcomments": 0.521,
+        "raft": 0.404
+      }
+    },
+    {
+      "model_name": "T5 (11B)",
+      "mean_win_rate": 0.131,
+      "benchmarks": {
+        "mmlu": 0.29,
+        "boolq": 0.761,
+        "narrativeqa": 0.086,
+        "naturalquestions_closed": 0.194,
+        "naturalquestions_open": 0.477,
+        "quac": 0.116,
+        "truthfulqa": 0.133,
+        "cnn_dailymail": 0.043,
+        "xsum": 0.015,
+        "imdb": 0.379,
+        "civilcomments": 0.509,
+        "raft": 0.37
+      }
+    },
+    {
+      "model_name": "babbage (1.3B)",
+      "mean_win_rate": 0.114,
+      "benchmarks": {
+        "mmlu": 0.235,
+        "boolq": 0.574,
+        "narrativeqa": 0.491,
+        "naturalquestions_closed": 0.119,
+        "naturalquestions_open": 0.451,
+        "quac": 0.273,
+        "hellaswag": 0.555,
+        "openbookqa": 0.438,
+        "truthfulqa": 0.188,
+        "ms_marco_regular": 0.122,
+        "ms_marco_trec": 0.317,
+        "cnn_dailymail": 0.079,
+        "xsum": 0.045,
+        "imdb": 0.597,
+        "civilcomments": 0.519,
+        "raft": 0.455
+      }
+    },
+    {
+      "model_name": "Cohere small v20220720 (410M)",
+      "mean_win_rate": 0.109,
+      "benchmarks": {
+        "mmlu": 0.264,
+        "boolq": 0.457,
+        "narrativeqa": 0.294,
+        "naturalquestions_closed": 0.078,
+        "naturalquestions_open": 0.309,
+        "quac": 0.219,
+        "hellaswag": 0.483,
+        "openbookqa": 0.348,
+        "truthfulqa": 0.217,
+        "ms_marco_trec": 0.304,
+        "cnn_dailymail": 0.063,
+        "xsum": 0.033,
+        "imdb": 0.578,
+        "civilcomments": 0.501,
+        "raft": 0.492
+      }
+    },
+    {
+      "model_name": "ada (350M)",
+      "mean_win_rate": 0.108,
+      "benchmarks": {
+        "mmlu": 0.243,
+        "boolq": 0.581,
+        "narrativeqa": 0.326,
+        "naturalquestions_closed": 0.082,
+        "naturalquestions_open": 0.365,
+        "quac": 0.242,
+        "hellaswag": 0.435,
+        "openbookqa": 0.38,
+        "truthfulqa": 0.215,
+        "ms_marco_regular": 0.102,
+        "ms_marco_trec": 0.29,
+        "cnn_dailymail": 0.09,
+        "xsum": 0.022,
+        "imdb": 0.849,
+        "civilcomments": 0.517,
+        "raft": 0.423
+      }
+    },
+    {
+      "model_name": "text-ada-001",
+      "mean_win_rate": 0.107,
+      "benchmarks": {
+        "mmlu": 0.238,
+        "boolq": 0.464,
+        "narrativeqa": 0.238,
+        "naturalquestions_closed": 0.025,
+        "naturalquestions_open": 0.149,
+        "quac": 0.176,
+        "hellaswag": 0.429,
+        "openbookqa": 0.346,
+        "truthfulqa": 0.232,
+        "ms_marco_regular": 0.134,
+        "ms_marco_trec": 0.302,
+        "cnn_dailymail": 0.136,
+        "xsum": 0.034,
+        "imdb": 0.822,
+        "civilcomments": 0.503,
+        "raft": 0.406
+      }
+    },
+    {
+      "model_name": "YaLM (100B)",
+      "mean_win_rate": 0.075,
+      "benchmarks": {
+        "mmlu": 0.243,
+        "boolq": 0.634,
+        "narrativeqa": 0.252,
+        "naturalquestions_closed": 0.068,
+        "naturalquestions_open": 0.227,
+        "quac": 0.162,
+        "truthfulqa": 0.202,
+        "cnn_dailymail": 0.017,
+        "xsum": 0.021,
+        "imdb": 0.836,
+        "civilcomments": 0.49,
+        "raft": 0.395
+      }
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "strawberry_bench": [
+    {
+      "model": "OpenAI / o1 (2024-12-17)",
+      "metrics": {
+        "results": "PASSED",
+        "pass_rate": 100.0,
+        "tokens": 195,
+        "cost": 0.01109,
+        "response_time_seconds": 58.0
+      },
+      "source": "Strawberry Bench",
+      "benchmark_type": "reasoning",
+      "scraped_at": "2025-05-27T14:50:17.104964"
+    },
+    {
+      "model": "OpenAI / o3-mini (2025-01-31)",
+      "metrics": {
+        "results": "PASSED",
+        "pass_rate": 100.0,
+        "tokens": 242,
+        "cost": 0.00102,
+        "response_time_seconds": 4.5
+      },
+      "source": "Strawberry Bench",
+      "benchmark_type": "reasoning",
+      "scraped_at": "2025-05-27T14:50:17.104975"
+    },
+    {
+      "model": "OpenAI / gpt-4o (2024-11-20)",
+      "metrics": {
+        "results": "PASSED",
+        "pass_rate": 100.0,
+        "tokens": 29,
+        "cost": 0.00018,
+        "response_time_seconds": 1.8
+      },
+      "source": "Strawberry Bench",
+      "benchmark_type": "reasoning",
+      "scraped_at": "2025-05-27T14:50:17.104980"
+    },
+    {
+      "model": "Google / Gemini 2.5 Pro",
+      "metrics": {
+        "results": "PASSED",
+        "pass_rate": 100.0,
+        "tokens": 239,
+        "cost": 0.00232,
+        "response_time_seconds": 6.0
+      },
+      "source": "Strawberry Bench",
+      "benchmark_type": "reasoning",
+      "scraped_at": "2025-05-27T14:50:17.104985"
+    },
+    {
+      "model": "Google / Gemini 2.0 Pro",
+      "metrics": {
+        "results": "PASSED",
+        "pass_rate": 100.0,
+        "tokens": 21,
+        "cost": 7e-05,
+        "response_time_seconds": 1.5
+      },
+      "source": "Strawberry Bench",
+      "benchmark_type": "reasoning",
+      "scraped_at": "2025-05-27T14:50:17.104990"
+    },
+    {
+      "model": "Anthropic / Claude 3 Opus (2024-02-29)",
+      "metrics": {
+        "results": "FAILED",
+        "pass_rate": 90.0,
+        "tokens": 32,
+        "cost": 0.00148,
+        "response_time_seconds": 2.4
+      },
+      "source": "Strawberry Bench",
+      "benchmark_type": "reasoning",
+      "scraped_at": "2025-05-27T14:50:17.105010"
+    },
+    {
+      "model": "OpenAI / gpt-4o-mini (2024-07-18)",
+      "metrics": {
+        "results": "FAILED",
+        "pass_rate": 70.0,
+        "tokens": 29,
+        "cost": 1e-05,
+        "response_time_seconds": 1.8
+      },
+      "source": "Strawberry Bench",
+      "benchmark_type": "reasoning",
+      "scraped_at": "2025-05-27T14:50:17.105017"
+    },
+    {
+      "model": "Google / Gemini Flash 2.0 (Thinking)",
+      "metrics": {
+        "results": "FAILED",
+        "pass_rate": 70.0,
+        "tokens": 308,
+        "cost": 0.00018,
+        "response_time_seconds": 2.8
+      },
+      "source": "Strawberry Bench",
+      "benchmark_type": "reasoning",
+      "scraped_at": "2025-05-27T14:50:17.105021"
+    },
+    {
+      "model": "OpenAI / o1-mini (2024-09-12)",
+      "metrics": {
+        "results": "FAILED",
+        "pass_rate": 60.0,
+        "tokens": 411,
+        "cost": 0.00481,
+        "response_time_seconds": 4.3
+      },
+      "source": "Strawberry Bench",
+      "benchmark_type": "reasoning",
+      "scraped_at": "2025-05-27T14:50:17.105025"
+    },
+    {
+      "model": "Google / Gemini Flash 2.0 (Experimental)",
+      "metrics": {
+        "results": "FAILED",
+        "pass_rate": 20.0,
+        "tokens": 29,
+        "cost": 1e-05,
+        "response_time_seconds": 2.1
+      },
+      "source": "Strawberry Bench",
+      "benchmark_type": "reasoning",
+      "scraped_at": "2025-05-27T14:50:17.105029"
+    },
+    {
+      "model": "Anthropic / Claude 3.7 Sonnet (2025-02-19 Thinking)",
+      "metrics": {
+        "results": "FAILED",
+        "pass_rate": 90.0,
+        "tokens": 225,
+        "cost": 0.00286,
+        "response_time_seconds": 4.3
+      },
+      "source": "Strawberry Bench",
+      "benchmark_type": "reasoning",
+      "scraped_at": "2025-05-27T14:50:17.105033"
+    },
+    {
+      "model": "Anthropic / Claude 3.7 Sonnet (2025-02-19)",
+      "metrics": {
+        "results": "FAILED",
+        "pass_rate": 20.0,
+        "tokens": 31,
+        "cost": 0.00029,
+        "response_time_seconds": 2.0
+      },
+      "source": "Strawberry Bench",
+      "benchmark_type": "reasoning",
+      "scraped_at": "2025-05-27T14:50:17.105037"
+    },
+    {
+      "model": "Anthropic / Claude 3.5 Haiku (2024-10-22)",
+      "metrics": {
+        "results": "FAILED",
+        "pass_rate": 10.0,
+        "tokens": 50,
+        "cost": 0.00015,
+        "response_time_seconds": 2.1
+      },
+      "source": "Strawberry Bench",
+      "benchmark_type": "reasoning",
+      "scraped_at": "2025-05-27T14:50:17.105040"
+    },
+    {
+      "model": "Meta / Llama 3.1 (405B)",
+      "metrics": {
+        "results": "FAILED",
+        "pass_rate": 0.0,
+        "tokens": 51,
+        "cost": 4e-05,
+        "response_time_seconds": 2.2
+      },
+      "source": "Strawberry Bench",
+      "benchmark_type": "reasoning",
+      "scraped_at": "2025-05-27T14:50:17.105044"
+    },
+    {
+      "model": "Meta / Llama 3.3 (70B)",
+      "metrics": {
+        "results": "FAILED",
+        "pass_rate": 0.0,
+        "tokens": 45,
+        "cost": 1e-05,
+        "response_time_seconds": 3.1
+      },
+      "source": "Strawberry Bench",
+      "benchmark_type": "reasoning",
+      "scraped_at": "2025-05-27T14:50:17.105047"
+    },
+    {
+      "model": "Mistral / Mistral Large (2411)",
+      "metrics": {
+        "results": "FAILED",
+        "pass_rate": 0.0,
+        "tokens": 38,
+        "cost": 8e-05,
+        "response_time_seconds": 1.8
+      },
+      "source": "Strawberry Bench",
+      "benchmark_type": "reasoning",
+      "scraped_at": "2025-05-27T14:50:17.105051"
+    }
+  ]
+}

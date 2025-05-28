@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from .api import leaderboards_v2
+from .api import leaderboards
 
 app = FastAPI(title="Meta-LLM API", version="0.1.0")
 
@@ -15,7 +15,7 @@ app.add_middleware(
 )
 
 # Include routers
-app.include_router(leaderboards_v2.router, prefix="/api")
+app.include_router(leaderboards.router, prefix="/api")
 
 @app.get("/")
 def root():

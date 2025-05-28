@@ -217,6 +217,8 @@ def get_models(db: Session = Depends(get_db)):
             medical=get_category_score(db, model_name, 'medical'),
             legal=get_category_score(db, model_name, 'legal'),
             multilingual=get_category_score(db, model_name, 'multilingual'),
+            reasoning=get_category_score(db, model_name, 'reasoning'),
+            comprehensive=get_category_score(db, model_name, 'comprehensive'),
             
             # Extended categories
             chinese=get_category_score(db, model_name, 'chinese'),
@@ -313,6 +315,8 @@ def get_model_detail(name: str, db: Session = Depends(get_db)):
         medical=get_category_score(db, name, 'medical'),
         legal=get_category_score(db, name, 'legal'),
         multilingual=get_category_score(db, name, 'multilingual'),
+        reasoning=get_category_score(db, name, 'reasoning'),
+        comprehensive=get_category_score(db, name, 'comprehensive'),
         chinese=get_category_score(db, name, 'chinese'),
         emotional=get_category_score(db, name, 'emotional'),
         instruction=get_category_score(db, name, 'instruction'),

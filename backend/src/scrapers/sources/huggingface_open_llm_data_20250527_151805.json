@@ -1,0 +1,572 @@
+[
+  {
+    "model": "MaziyarPanahi/calme-3.2-instruct-78b",
+    "source": "HuggingFace Open LLM Leaderboard",
+    "timestamp": "2025-05-27T15:18:05.305851",
+    "rank": 1,
+    "model_type": "fine-tuned",
+    "scores": {
+      "Average": 52.08,
+      "IFEval": 80.63,
+      "BBH": 62.61,
+      "MATH": 40.33,
+      "GPQA": 20.36,
+      "MUSR": 38.53,
+      "MMLU-PRO": 70.03
+    },
+    "metadata": {
+      "co2_cost": "66.01 kg"
+    }
+  },
+  {
+    "model": "MaziyarPanahi/calme-3.1-instruct-78b",
+    "source": "HuggingFace Open LLM Leaderboard",
+    "timestamp": "2025-05-27T15:18:05.305881",
+    "rank": 2,
+    "model_type": "chat",
+    "scores": {
+      "Average": 51.29,
+      "IFEval": 81.36,
+      "BBH": 62.41,
+      "MATH": 39.27,
+      "GPQA": 19.46,
+      "MUSR": 36.5,
+      "MMLU-PRO": 68.72
+    },
+    "metadata": {
+      "co2_cost": "64.44 kg"
+    }
+  },
+  {
+    "model": "dfurman/CalmeRys-78B-Orpo-v0.1",
+    "source": "HuggingFace Open LLM Leaderboard",
+    "timestamp": "2025-05-27T15:18:05.305890",
+    "rank": 3,
+    "model_type": "chat",
+    "scores": {
+      "Average": 51.23,
+      "IFEval": 81.63,
+      "BBH": 61.92,
+      "MATH": 40.63,
+      "GPQA": 20.02,
+      "MUSR": 36.37,
+      "MMLU-PRO": 66.8
+    },
+    "metadata": {
+      "co2_cost": "25.99 kg"
+    }
+  },
+  {
+    "model": "MaziyarPanahi/calme-2.4-rys-78b",
+    "source": "HuggingFace Open LLM Leaderboard",
+    "timestamp": "2025-05-27T15:18:05.305897",
+    "rank": 4,
+    "model_type": "chat",
+    "scores": {
+      "Average": 50.77,
+      "IFEval": 80.11,
+      "BBH": 62.16,
+      "MATH": 40.71,
+      "GPQA": 20.36,
+      "MUSR": 34.57,
+      "MMLU-PRO": 66.69
+    },
+    "metadata": {
+      "co2_cost": "25.95 kg"
+    }
+  },
+  {
+    "model": "huihui-ai/Qwen2.5-72B-Instruct-abliterated",
+    "source": "HuggingFace Open LLM Leaderboard",
+    "timestamp": "2025-05-27T15:18:05.305903",
+    "rank": 5,
+    "model_type": "fine-tuned",
+    "scores": {
+      "Average": 48.11,
+      "IFEval": 85.93,
+      "BBH": 60.49,
+      "MATH": 60.12,
+      "GPQA": 19.35,
+      "MUSR": 12.34,
+      "MMLU-PRO": 50.41
+    },
+    "metadata": {
+      "co2_cost": "76.77 kg"
+    }
+  },
+  {
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "source": "HuggingFace Open LLM Leaderboard",
+    "timestamp": "2025-05-27T15:18:05.305911",
+    "rank": 6,
+    "model_type": "chat",
+    "scores": {
+      "Average": 47.98,
+      "IFEval": 86.38,
+      "BBH": 61.87,
+      "MATH": 59.82,
+      "GPQA": 16.67,
+      "MUSR": 11.74,
+      "MMLU-PRO": 51.4
+    },
+    "metadata": {
+      "co2_cost": "47.65 kg"
+    }
+  },
+  {
+    "model": "MaziyarPanahi/calme-2.1-qwen2.5-72b",
+    "source": "HuggingFace Open LLM Leaderboard",
+    "timestamp": "2025-05-27T15:18:05.305917",
+    "rank": 7,
+    "model_type": "chat",
+    "scores": {
+      "Average": 47.86,
+      "IFEval": 86.62,
+      "BBH": 61.66,
+      "MATH": 59.14,
+      "GPQA": 15.1,
+      "MUSR": 13.3,
+      "MMLU-PRO": 51.32
+    },
+    "metadata": {
+      "co2_cost": "29.50 kg"
+    }
+  },
+  {
+    "model": "newsbang/Homer-v1.0-Qwen2.5-72B",
+    "source": "HuggingFace Open LLM Leaderboard",
+    "timestamp": "2025-05-27T15:18:05.305926",
+    "rank": 8,
+    "model_type": "fine-tuned",
+    "scores": {
+      "Average": 47.46,
+      "IFEval": 76.28,
+      "BBH": 62.27,
+      "MATH": 49.02,
+      "GPQA": 22.15,
+      "MUSR": 17.9,
+      "MMLU-PRO": 57.17
+    },
+    "metadata": {
+      "co2_cost": "29.55 kg"
+    }
+  },
+  {
+    "model": "ehristoforu/qwen2.5-test-32b-it",
+    "source": "HuggingFace Open LLM Leaderboard",
+    "timestamp": "2025-05-27T15:18:05.305932",
+    "rank": 9,
+    "model_type": "chat",
+    "scores": {
+      "Average": 47.37,
+      "IFEval": 78.89,
+      "BBH": 58.28,
+      "MATH": 59.74,
+      "GPQA": 15.21,
+      "MUSR": 19.13,
+      "MMLU-PRO": 52.95
+    },
+    "metadata": {
+      "co2_cost": "29.54 kg"
+    }
+  },
+  {
+    "model": "Saxo/Linkbricks-Horizon-AI-Avengers-V1-32B",
+    "source": "HuggingFace Open LLM Leaderboard",
+    "timestamp": "2025-05-27T15:18:05.305943",
+    "rank": 10,
+    "model_type": "fine-tuned",
+    "scores": {
+      "Average": 47.34,
+      "IFEval": 79.72,
+      "BBH": 57.63,
+      "MATH": 60.27,
+      "GPQA": 14.99,
+      "MUSR": 18.16,
+      "MMLU-PRO": 53.25
+    },
+    "metadata": {
+      "co2_cost": "7.95 kg"
+    }
+  },
+  {
+    "model": "MaziyarPanahi/calme-2.2-qwen2.5-72b",
+    "source": "HuggingFace Open LLM Leaderboard",
+    "timestamp": "2025-05-27T15:18:05.305949",
+    "rank": 11,
+    "model_type": "chat",
+    "scores": {
+      "Average": 47.22,
+      "IFEval": 84.77,
+      "BBH": 61.8,
+      "MATH": 58.91,
+      "GPQA": 14.54,
+      "MUSR": 12.02,
+      "MMLU-PRO": 51.31
+    },
+    "metadata": {
+      "co2_cost": "28.52 kg"
+    }
+  },
+  {
+    "model": "fluently-lm/FluentlyLM-Prinum",
+    "source": "HuggingFace Open LLM Leaderboard",
+    "timestamp": "2025-05-27T15:18:05.305959",
+    "rank": 12,
+    "model_type": "chat",
+    "scores": {
+      "Average": 47.22,
+      "IFEval": 80.9,
+      "BBH": 59.48,
+      "MATH": 54.0,
+      "GPQA": 18.23,
+      "MUSR": 17.26,
+      "MMLU-PRO": 53.42
+    },
+    "metadata": {
+      "co2_cost": "21.25 kg"
+    }
+  },
+  {
+    "model": "JungZoona/T3Q-Qwen2.5-14B-Instruct-1M-e3",
+    "source": "HuggingFace Open LLM Leaderboard",
+    "timestamp": "2025-05-27T15:18:05.305968",
+    "rank": 13,
+    "model_type": "\u2753",
+    "scores": {
+      "Average": 47.09,
+      "IFEval": 73.24,
+      "BBH": 65.47,
+      "MATH": 28.63,
+      "GPQA": 22.26,
+      "MUSR": 38.69,
+      "MMLU-PRO": 54.27
+    },
+    "metadata": {
+      "co2_cost": "1.40 kg"
+    }
+  },
+  {
+    "model": "JungZoona/T3Q-qwen2.5-14b-v1.0-e3",
+    "source": "HuggingFace Open LLM Leaderboard",
+    "timestamp": "2025-05-27T15:18:05.305976",
+    "rank": 14,
+    "model_type": "fine-tuned",
+    "scores": {
+      "Average": 47.09,
+      "IFEval": 73.24,
+      "BBH": 65.47,
+      "MATH": 28.63,
+      "GPQA": 22.26,
+      "MUSR": 38.69,
+      "MMLU-PRO": 54.27
+    },
+    "metadata": {
+      "co2_cost": "1.56 kg"
+    }
+  },
+  {
+    "model": "zetasepic/Qwen2.5-32B-Instruct-abliterated-v2",
+    "source": "HuggingFace Open LLM Leaderboard",
+    "timestamp": "2025-05-27T15:18:05.305982",
+    "rank": 15,
+    "model_type": "fine-tuned",
+    "scores": {
+      "Average": 46.89,
+      "IFEval": 83.34,
+      "BBH": 56.53,
+      "MATH": 59.52,
+      "GPQA": 15.66,
+      "MUSR": 14.93,
+      "MMLU-PRO": 51.35
+    },
+    "metadata": {
+      "co2_cost": "13.49 kg"
+    }
+  },
+  {
+    "model": "rubenroy/Gilgamesh-72B",
+    "source": "HuggingFace Open LLM Leaderboard",
+    "timestamp": "2025-05-27T15:18:05.305987",
+    "rank": 16,
+    "model_type": "fine-tuned",
+    "scores": {
+      "Average": 46.79,
+      "IFEval": 84.86,
+      "BBH": 61.84,
+      "MATH": 43.81,
+      "GPQA": 19.24,
+      "MUSR": 17.66,
+      "MMLU-PRO": 53.36
+    },
+    "metadata": {
+      "co2_cost": "51.29 kg"
+    }
+  },
+  {
+    "model": "Sakalti/ultiima-72B",
+    "source": "HuggingFace Open LLM Leaderboard",
+    "timestamp": "2025-05-27T15:18:05.305998",
+    "rank": 17,
+    "model_type": "fine-tuned",
+    "scores": {
+      "Average": 46.77,
+      "IFEval": 71.4,
+      "BBH": 61.1,
+      "MATH": 53.55,
+      "GPQA": 21.92,
+      "MUSR": 18.12,
+      "MMLU-PRO": 54.51
+    },
+    "metadata": {
+      "co2_cost": "36.97 kg"
+    }
+  },
+  {
+    "model": "CombinHorizon/zetasepic-abliteratedV2-Qwen2.5-32B-Inst-BaseMerge-TIES",
+    "source": "HuggingFace Open LLM Leaderboard",
+    "timestamp": "2025-05-27T15:18:05.306004",
+    "rank": 18,
+    "model_type": "merge",
+    "scores": {
+      "Average": 46.76,
+      "IFEval": 83.28,
+      "BBH": 56.83,
+      "MATH": 58.53,
+      "GPQA": 15.66,
+      "MUSR": 14.22,
+      "MMLU-PRO": 52.05
+    },
+    "metadata": {
+      "co2_cost": "7.37 kg"
+    }
+  },
+  {
+    "model": "maldv/Awqward2.5-32B-Instruct",
+    "source": "HuggingFace Open LLM Leaderboard",
+    "timestamp": "2025-05-27T15:18:05.306010",
+    "rank": 19,
+    "model_type": "merge",
+    "scores": {
+      "Average": 46.75,
+      "IFEval": 82.55,
+      "BBH": 57.21,
+      "MATH": 62.31,
+      "GPQA": 12.08,
+      "MUSR": 13.87,
+      "MMLU-PRO": 52.48
+    },
+    "metadata": {
+      "co2_cost": "7.45 kg"
+    }
+  },
+  {
+    "model": "raphgg/test-2.5-72B",
+    "source": "HuggingFace Open LLM Leaderboard",
+    "timestamp": "2025-05-27T15:18:05.306016",
+    "rank": 20,
+    "model_type": "fine-tuned",
+    "scores": {
+      "Average": 46.74,
+      "IFEval": 84.37,
+      "BBH": 62.15,
+      "MATH": 41.09,
+      "GPQA": 18.57,
+      "MUSR": 20.52,
+      "MMLU-PRO": 53.74
+    },
+    "metadata": {
+      "co2_cost": "44.86 kg"
+    }
+  },
+  {
+    "model": "shuttleai/shuttle-3",
+    "source": "HuggingFace Open LLM Leaderboard",
+    "timestamp": "2025-05-27T15:18:05.306021",
+    "rank": 21,
+    "model_type": "fine-tuned",
+    "scores": {
+      "Average": 46.7,
+      "IFEval": 81.54,
+      "BBH": 64.05,
+      "MATH": 46.0,
+      "GPQA": 21.59,
+      "MUSR": 14.64,
+      "MMLU-PRO": 52.4
+    },
+    "metadata": {
+      "co2_cost": "47.04 kg"
+    }
+  },
+  {
+    "model": "Qwen/Qwen2.5-32B-Instruct",
+    "source": "HuggingFace Open LLM Leaderboard",
+    "timestamp": "2025-05-27T15:18:05.306026",
+    "rank": 22,
+    "model_type": "chat",
+    "scores": {
+      "Average": 46.6,
+      "IFEval": 83.46,
+      "BBH": 56.49,
+      "MATH": 62.54,
+      "GPQA": 11.74,
+      "MUSR": 13.5,
+      "MMLU-PRO": 51.85
+    },
+    "metadata": {
+      "co2_cost": "11.50 kg"
+    }
+  },
+  {
+    "model": "mistralai/Mistral-Large-Instruct-2411",
+    "source": "HuggingFace Open LLM Leaderboard",
+    "timestamp": "2025-05-27T15:18:05.306032",
+    "rank": 23,
+    "model_type": "chat",
+    "scores": {
+      "Average": 46.52,
+      "IFEval": 84.01,
+      "BBH": 52.74,
+      "MATH": 49.55,
+      "GPQA": 24.94,
+      "MUSR": 17.22,
+      "MMLU-PRO": 50.69
+    },
+    "metadata": {
+      "co2_cost": "52.54 kg"
+    }
+  },
+  {
+    "model": "rombodawg/Rombos-LLM-V2.5-Qwen-72b",
+    "source": "HuggingFace Open LLM Leaderboard",
+    "timestamp": "2025-05-27T15:18:05.306037",
+    "rank": 24,
+    "model_type": "merge",
+    "scores": {
+      "Average": 46.5,
+      "IFEval": 71.55,
+      "BBH": 61.27,
+      "MATH": 54.23,
+      "GPQA": 19.8,
+      "MUSR": 17.32,
+      "MMLU-PRO": 54.83
+    },
+    "metadata": {
+      "co2_cost": "32.07 kg"
+    }
+  },
+  {
+    "model": "Saxo/Linkbricks-Horizon-AI-Avengers-V3-32B",
+    "source": "HuggingFace Open LLM Leaderboard",
+    "timestamp": "2025-05-27T15:18:05.306046",
+    "rank": 25,
+    "model_type": "fine-tuned",
+    "scores": {
+      "Average": 46.37,
+      "IFEval": 82.49,
+      "BBH": 56.53,
+      "MATH": 61.78,
+      "GPQA": 11.74,
+      "MUSR": 13.83,
+      "MMLU-PRO": 51.82
+    },
+    "metadata": {
+      "co2_cost": "7.08 kg"
+    }
+  },
+  {
+    "model": "zetasepic/Qwen2.5-72B-Instruct-abliterated",
+    "source": "HuggingFace Open LLM Leaderboard",
+    "timestamp": "2025-05-27T15:18:05.306051",
+    "rank": 26,
+    "model_type": "fine-tuned",
+    "scores": {
+      "Average": 46.34,
+      "IFEval": 71.53,
+      "BBH": 59.91,
+      "MATH": 52.42,
+      "GPQA": 20.92,
+      "MUSR": 19.12,
+      "MMLU-PRO": 54.13
+    },
+    "metadata": {
+      "co2_cost": "37.62 kg"
+    }
+  },
+  {
+    "model": "Saxo/Linkbricks-Horizon-AI-Avengers-V6-32B",
+    "source": "HuggingFace Open LLM Leaderboard",
+    "timestamp": "2025-05-27T15:18:05.306059",
+    "rank": 27,
+    "model_type": "fine-tuned",
+    "scores": {
+      "Average": 46.23,
+      "IFEval": 82.09,
+      "BBH": 56.19,
+      "MATH": 62.24,
+      "GPQA": 11.3,
+      "MUSR": 13.66,
+      "MMLU-PRO": 51.92
+    },
+    "metadata": {
+      "co2_cost": "7.31 kg"
+    }
+  },
+  {
+    "model": "tanliboy/lambda-qwen2.5-32b-dpo-test",
+    "source": "HuggingFace Open LLM Leaderboard",
+    "timestamp": "2025-05-27T15:18:05.306065",
+    "rank": 28,
+    "model_type": "chat",
+    "scores": {
+      "Average": 45.92,
+      "IFEval": 80.84,
+      "BBH": 54.41,
+      "MATH": 61.03,
+      "GPQA": 14.21,
+      "MUSR": 13.33,
+      "MMLU-PRO": 51.74
+    },
+    "metadata": {
+      "co2_cost": "11.00 kg"
+    }
+  },
+  {
+    "model": "maldv/Qwentile2.5-32B-Instruct",
+    "source": "HuggingFace Open LLM Leaderboard",
+    "timestamp": "2025-05-27T15:18:05.306072",
+    "rank": 29,
+    "model_type": "merge",
+    "scores": {
+      "Average": 45.9,
+      "IFEval": 73.93,
+      "BBH": 57.21,
+      "MATH": 52.19,
+      "GPQA": 17.9,
+      "MUSR": 19.96,
+      "MMLU-PRO": 54.21
+    },
+    "metadata": {
+      "co2_cost": "7.07 kg"
+    }
+  },
+  {
+    "model": "rombodawg/Rombos-LLM-V2.5-Qwen-32b",
+    "source": "HuggingFace Open LLM Leaderboard",
+    "timestamp": "2025-05-27T15:18:05.306079",
+    "rank": 30,
+    "model_type": "fine-tuned",
+    "scores": {
+      "Average": 45.83,
+      "IFEval": 68.27,
+      "BBH": 58.26,
+      "MATH": 49.55,
+      "GPQA": 19.57,
+      "MUSR": 24.73,
+      "MMLU-PRO": 54.62
+    },
+    "metadata": {
+      "co2_cost": "35.83 kg"
+    }
+  }
+]

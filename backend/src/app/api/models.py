@@ -12,6 +12,8 @@ class ModelScore(BaseModel):
     medical: Optional[float] = None
     legal: Optional[float] = None
     multilingual: Optional[float] = None
+    reasoning: Optional[float] = None
+    comprehensive: Optional[float] = None
     
     # NEW: Extended categories
     chinese: Optional[float] = None
@@ -39,6 +41,8 @@ class ModelDetailResponse(BaseModel):
     medical: Optional[float] = None
     legal: Optional[float] = None
     multilingual: Optional[float] = None
+    reasoning: Optional[float] = None
+    comprehensive: Optional[float] = None
     
     # NEW: Extended categories  
     chinese: Optional[float] = None
