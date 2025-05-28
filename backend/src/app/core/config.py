@@ -1,3 +1,4 @@
 import os
 
-DATABASE_URL = os.getenv("DATABASE_URL", "postgresql+psycopg2://meta_llm:meta_llm@localhost:5432/meta_llm") 
+# Use SQLite database for development - supports our existing meta_llm.db
+DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./meta_llm.db") 
