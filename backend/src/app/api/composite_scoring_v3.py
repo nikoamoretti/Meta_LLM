@@ -23,6 +23,29 @@ router = APIRouter()
 # Initialize composite scoring service
 composite_service = CompositeScoringService()
 
+def get_benchmark_description(benchmark_name: str) -> str:
+    """Get description for benchmark"""
+    descriptions = {
+        "SWE-Bench": "Real-world GitHub software engineering issue resolution (500 verified issues)",
+        "HumanEval": "Hand-written programming problems for measuring functional correctness",
+        "MBPP": "Mostly Basic Python Problems - entry-level programming challenges",
+        "BigCode": "BigCode Models Leaderboard - comprehensive coding evaluation across multiple programming languages",
+        "EvalPlus": "EvalPlus enhanced HumanEval+ and MBPP+ with rigorous test cases",
+        "Aider.chat": "Code editing performance across 6 programming languages",
+        "Can-AI-Code": "Can-AI-Code leaderboard - evaluating LLMs on coding tasks and programming challenges",
+        "Convex": "Convex.dev LLM Leaderboard - coding performance evaluation",
+        "LiveBench": "Real-time evaluation with challenging, contamination-free benchmarks updated monthly",
+        "LM Arena WebDev": "Web development coding evaluation including HTML, CSS, JavaScript, and full-stack development",
+        "ProllM StackEval": "Stack-based programming challenges and algorithmic problem solving evaluation",
+        "CruxEval": "Code reasoning benchmark complementary to HumanEval and MBPP focusing on code understanding",
+        "ClassEval": "Class-level code generation benchmark for object-oriented programming evaluation",
+        "CodeTLingua": "Multilingual code generation benchmark across different programming languages",
+        "DS-1000": "Data science code generation benchmark with realistic pandas, numpy, and ML library tasks",
+        "EvoEval": "Evolving code evaluation benchmark to prevent contamination and maintain challenge level",
+        "TabbyML": "Code completion and AI-assisted development evaluation benchmark"
+    }
+    return descriptions.get(benchmark_name, f"Coding benchmark: {benchmark_name}")
+
 @router.get("/composite/leaderboard/{profile_name}")
 async def get_composite_leaderboard(
     profile_name: str = "General",
@@ -38,7 +61,14 @@ async def get_composite_leaderboard(
         leaderboard = composite_service.get_composite_leaderboard(profile_name, limit)
         
         if not leaderboard:
-            raise HTTPException(status_code=404, detail=f"No results found for profile: {profile_name}")
+            # Return empty response instead of error for clean restart
+            return {
+                "profile_name": profile_name,
+                "total_models": 0,
+                "generated_at": datetime.now().isoformat(),
+                "leaderboard": [],
+                "message": "Composite scoring temporarily disabled - use /api/v3/coding/ endpoints for raw benchmark data"
+            }
         
         return {
             "profile_name": profile_name,
@@ -48,7 +78,14 @@ async def get_composite_leaderboard(
         }
         
     except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Failed to get composite leaderboard: {str(e)}")
+        # Return empty response instead of error for clean restart
+        return {
+            "profile_name": profile_name,
+            "total_models": 0,
+            "generated_at": datetime.now().isoformat(),
+            "leaderboard": [],
+            "message": "Composite scoring temporarily disabled - use /api/v3/coding/ endpoints for raw benchmark data"
+        }
 
 @router.get("/composite/profiles")
 async def get_scoring_profiles():
@@ -310,4 +347,279 @@ async def get_methodology_explanation():
                 "comparison_validity": "Scores comparable within and across profiles"
             }
         }
-    } 
+    }
+
+@router.get("/models/{model_name}/benchmarks")
+async def get_model_individual_benchmarks(
+    model_name: str,
+    category: Optional[str] = Query(None, description="Filter by category (e.g., 'software_engineering', 'coding')")
+):
+    """
+    Get individual benchmark scores for a specific model
+    
+    This endpoint exposes the raw benchmark data that gets aggregated into domain scores,
+    allowing users to see HumanEval, MBPP, SWE-Bench, etc. individual results.
+    """
+    try:
+        benchmarks = composite_service.get_model_individual_benchmarks(model_name, category)
+        
+        if not benchmarks:
+            raise HTTPException(status_code=404, detail=f"No benchmark data found for model: {model_name}")
+        
+        return {
+            "model_name": model_name,
+            "total_benchmarks": len(benchmarks),
+            "category_filter": category,
+            "benchmarks": benchmarks,
+            "generated_at": datetime.now().isoformat()
+        }
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to retrieve benchmarks: {str(e)}")
+
+@router.get("/category/{category_name}/benchmarks")
+async def get_category_benchmark_breakdown(
+    category_name: str,
+    limit: int = Query(20, ge=1, le=100)
+):
+    """
+    Get individual benchmark breakdown for all models in a category
+    
+    This shows how each model performs on individual benchmarks that make up 
+    the category's domain score aggregation.
+    """
+    try:
+        breakdown = composite_service.get_category_benchmark_breakdown(category_name, limit)
+        
+        if not breakdown:
+            raise HTTPException(status_code=404, detail=f"No benchmark data found for category: {category_name}")
+        
+        return {
+            "category_name": category_name,
+            "total_models": len(breakdown.get('models', [])),
+            "benchmarks_in_category": breakdown.get('benchmarks', []),
+            "models": breakdown.get('models', []),
+            "generated_at": datetime.now().isoformat()
+        }
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to retrieve category breakdown: {str(e)}")
+
+@router.get("/coding/benchmarks")
+async def get_coding_benchmarks(limit: int = Query(1000, ge=1, le=2000)):
+    """
+    Get individual benchmark scores for coding/software engineering models
+    
+    Returns all models with their individual coding benchmark scores 
+    (HumanEval, MBPP, CodeContests, SWE-Bench, Programming)
+    """
+    try:
+        import sqlite3
+        from collections import defaultdict
+        
+        # Get data from BOTH databases - old data and new scraper data
+        results = []
+        
+        # 1. Get existing data from old database (excluding file names and directories)
+        conn_old = sqlite3.connect("meta_llm.db")
+        conn_old.row_factory = sqlite3.Row
+        cursor_old = conn_old.cursor()
+        
+        # File extensions and directory names to exclude
+        file_patterns = [
+            '%.py', '%.sh', '%.txt', '%.md', '%.gitignore', '%.js', '%.json', 
+            '%.yml', '%.yaml', '%.xml', '%.csv', '%.log'
+        ]
+        
+        directory_names = [
+            'senior', 'sbox', 'results', 'prompts', 'params', 'models', 
+            'junior-v2', 'img', 'humaneval', 'compare', 'compare-v1',
+            'requirements-exl2', 'requirements-transformers', 'requirements-vllm'
+        ]
+        
+        # Build exclusion conditions for old database (with rs. prefix)
+        like_conditions_old = " AND ".join([f"rs.model_name NOT LIKE '{pattern}'" for pattern in file_patterns])
+        not_in_conditions_old = "'" + "','".join(directory_names) + "'"
+        
+        # Build exclusion conditions for new database (without rs. prefix)
+        like_conditions_new = " AND ".join([f"model_name NOT LIKE '{pattern}'" for pattern in file_patterns])
+        not_in_conditions_new = "'" + "','".join(directory_names) + "'"
+        
+        cursor_old.execute(f"""
+            SELECT 
+                rs.model_name,
+                rs.benchmark,
+                rs.value as raw_score,
+                COALESCE(ns.normalized_value, rs.value) as normalized_score,
+                l.name as leaderboard_name,
+                l.category
+            FROM raw_scores rs
+            LEFT JOIN normalized_scores ns ON rs.id = ns.raw_score_id
+            JOIN leaderboards l ON rs.leaderboard_id = l.id
+            WHERE l.category IN ('software_engineering', 'coding', 'programming')
+            AND {like_conditions_old}
+            AND rs.model_name NOT IN ({not_in_conditions_old})
+            AND rs.model_name NOT LIKE 'Bracket.%'
+            ORDER BY rs.model_name, rs.benchmark
+        """)
+        
+        results.extend(cursor_old.fetchall())
+        conn_old.close()
+        
+        # 2. Get ALL NEW coding benchmark data from coding_benchmarks table (with filtering)
+        try:
+            conn_new = sqlite3.connect("/app/src/db/meta_llm_leaderboard.db")
+            conn_new.row_factory = sqlite3.Row
+            cursor_new = conn_new.cursor()
+            
+            # Get ALL coding benchmarks: SWE-Bench, BigCode, EvalPlus (excluding file names and low-quality entries)
+            cursor_new.execute(f"""
+                SELECT 
+                    model_name,
+                    metric as benchmark,
+                    score as raw_score,
+                    score as normalized_score,
+                    benchmark_name as leaderboard_name,
+                    'software_engineering' as category
+                FROM coding_benchmarks
+                WHERE {like_conditions_new}
+                AND model_name NOT IN ({not_in_conditions_new})
+                AND model_name NOT LIKE 'Bracket.%'
+                AND model_name NOT LIKE '%zyte-1B%'
+                AND model_name NOT LIKE '%Anthopic%'
+                AND score > 0
+                ORDER BY model_name, benchmark_name
+            """)
+            
+            new_results = cursor_new.fetchall()
+            print(f"Loaded {len(new_results)} entries from new coding_benchmarks table")
+            results.extend(new_results)
+            conn_new.close()
+            
+        except Exception as e:
+            print(f"Could not load new coding benchmark data: {e}")
+            # Continue with just old data if new data fails
+        
+        # Group by model with deduplication
+        models_data = defaultdict(lambda: {'model_name': '', 'benchmarks': {}, 'average_score': 0})
+        
+        def normalize_model_name(name):
+            """Normalize model names to handle common typos and variations"""
+            # Fix common typos
+            name = name.replace('Anthopic', 'Anthropic')
+            # Remove incomplete entries indicator
+            if name.endswith(' + Deepseek V3') and name.startswith('Moatless Tools'):
+                return None  # Filter out incomplete entries
+            return name
+        
+        for row in results:
+            model_name = normalize_model_name(row['model_name'])
+            if model_name is None:
+                continue  # Skip filtered entries
+                
+            models_data[model_name]['model_name'] = model_name
+            
+            # Use leaderboard name for better identification
+            leaderboard_name = row['leaderboard_name']
+            benchmark_key = row['benchmark']
+            
+            # Map specific leaderboards to standardized names for frontend
+            if 'Aider' in leaderboard_name:
+                benchmark_key = 'Aider.chat'
+            elif 'SWE-Bench' in leaderboard_name:
+                benchmark_key = 'SWE-Bench'
+            elif 'BigCode' in leaderboard_name:
+                benchmark_key = 'BigCode'
+            elif 'EvalPlus' in leaderboard_name:
+                # For EvalPlus, use the specific metric as benchmark name for better granularity
+                if 'humaneval' in benchmark_key.lower():
+                    benchmark_key = 'HumanEval'
+                elif 'mbpp' in benchmark_key.lower():
+                    benchmark_key = 'MBPP'
+                else:
+                    benchmark_key = 'EvalPlus'
+            elif 'Can-AI-Code' in leaderboard_name:
+                benchmark_key = 'Can-AI-Code'
+            elif 'Convex' in leaderboard_name:
+                benchmark_key = 'Convex'
+            elif 'LiveBench' in leaderboard_name:
+                benchmark_key = 'LiveBench'
+            elif 'LM Arena WebDev' in leaderboard_name or 'lmarena' in leaderboard_name.lower():
+                benchmark_key = 'LM Arena WebDev'
+            elif 'ProllM' in leaderboard_name or 'StackEval' in leaderboard_name:
+                benchmark_key = 'ProllM StackEval'
+            elif 'CruxEval' in leaderboard_name:
+                benchmark_key = 'CruxEval'
+            elif 'ClassEval' in leaderboard_name:
+                benchmark_key = 'ClassEval'
+            elif 'CodeTLingua' in leaderboard_name:
+                benchmark_key = 'CodeTLingua'
+            elif 'DS-1000' in leaderboard_name or 'DS1000' in leaderboard_name:
+                benchmark_key = 'DS-1000'
+            elif 'EvoEval' in leaderboard_name:
+                benchmark_key = 'EvoEval'
+            elif 'TabbyML' in leaderboard_name:
+                benchmark_key = 'TabbyML'
+            
+            models_data[model_name]['benchmarks'][benchmark_key] = row['normalized_score']
+        
+        # Calculate average scores and sort
+        for model_name, data in models_data.items():
+            scores = [score for score in data['benchmarks'].values() if score is not None]
+            data['average_score'] = sum(scores) / len(scores) if scores else 0
+        
+        # Sort by average score and limit results
+        sorted_models = sorted(
+            models_data.values(), 
+            key=lambda x: x['average_score'], 
+            reverse=True
+        )[:limit]
+        
+        # Get list of all available benchmarks with source URLs
+        available_benchmarks = set()
+        for model in sorted_models:
+            available_benchmarks.update(model['benchmarks'].keys())
+        
+        # Add benchmark metadata with source URLs
+        benchmark_sources = {
+            "SWE-Bench": "https://www.swebench.com/",
+            "HumanEval": "https://github.com/openai/human-eval",
+            "MBPP": "https://github.com/google-research/google-research/tree/master/mbpp",
+            "BigCode": "https://huggingface.co/spaces/bigcode/bigcode-models-leaderboard",
+            "EvalPlus": "https://evalplus.github.io/leaderboard",
+            "Aider.chat": "https://aider.chat/docs/leaderboards/",
+            "Can-AI-Code": "https://huggingface.co/spaces/mike-ravkine/can-ai-code-results",
+            "Convex": "https://www.convex.dev/llm-leaderboard",
+            "LiveBench": "https://livebench.ai/#/",
+            "LM Arena WebDev": "https://lmarena.ai/leaderboard/webdev",
+            "ProllM StackEval": "https://www.prollm.ai/leaderboard/stack-eval",
+            "CruxEval": "https://crux-eval.github.io/leaderboard.html",
+            "ClassEval": "https://fudanselab-classeval.github.io/leaderboard.html",
+            "CodeTLingua": "https://codetlingua.github.io/leaderboard.html",
+            "DS-1000": "https://ds1000-code-gen.github.io/model_DS1000.html",
+            "EvoEval": "https://evo-eval.github.io/leaderboard.html",
+            "TabbyML": "https://leaderboard.tabbyml.com/"
+        }
+        
+        benchmark_info = []
+        for benchmark in sorted(available_benchmarks):
+            benchmark_info.append({
+                "name": benchmark,
+                "source_url": benchmark_sources.get(benchmark, ""),
+                "description": get_benchmark_description(benchmark)
+            })
+        
+        return {
+            "category": "coding",
+            "total_models": len(sorted_models),
+            "available_benchmarks": benchmark_info,
+            "models": sorted_models,
+            "generated_at": datetime.now().isoformat()
+        }
+        
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to retrieve coding benchmarks: {str(e)}") 

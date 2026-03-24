@@ -35,5 +35,18 @@ services:
     ports:
       - '3000:3000'
 
+  scheduler:
+    build: ./backend
+    command: python src/jobs/automated_update_system_fixed.py
+    volumes:
+      - ./backend:/app
+      - ./backend/meta_llm.db:/app/meta_llm.db
+    environment:
+      - PYTHONUNBUFFERED=1
+      - DATABASE_URL=sqlite:///./meta_llm.db
+    depends_on:
+      - backend
+    restart: unless-stopped
+
 volumes:
   pgdata: 

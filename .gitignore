@@ -88,4 +88,96 @@ debug_*.py
 test_results/
 coverage/
 .coverage
-.pytest_cache/ 
+.pytest_cache/
+
+# One-off scripts and debug files (root level throwaway scripts)
+fix_*.py
+check_*.py
+diagnose_*.py
+test_*.py
+import_*.py
+verify_*.py
+restart_*.sh
+run_*.sh
+run_*.py
+execute_*.py
+find_*.py
+add_*.py
+validate_*.py
+quick_*.py
+standalone_*.py
+combined_*.py
+discover_*.py
+integrate_legal_bench*.py
+legal_bench*.py
+
+# Root-level throwaway files
+EXECUTE_THIS_FIX.command
+FINAL_FIX_EVERYTHING.py
+SHELL_FIX_INSTRUCTIONS.md
+
+# Backend root-level one-off scripts
+backend/fix_*.py
+backend/check_*.py
+backend/test_*.py
+backend/verify_*.py
+backend/trigger_*.py
+backend/show_*.py
+backend/compare_*.py
+backend/analyze_*.py
+backend/integrate_*.py
+backend/populate_*.py
+backend/recalculate_*.py
+backend/run_*.py
+backend/run_*.sh
+backend/direct_*.py
+backend/simple_*.py
+
+# Frontend one-off scripts (Python scripts don't belong in frontend)
+frontend/check_*.py
+frontend/examine_*.py
+frontend/query_*.py
+frontend/search_*.py
+frontend/test_*.js
+
+# Data dumps and scraped JSON (not application config)
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
+!*.config.json
+!next-env.d.ts
+backend/src/scrapers/*.json
+
+# Text data dumps
+backend/src/scrapers/*.txt
+
+# Cursor IDE
+.cursor/
+
+# src/ at root (likely stray copy)
+/src/
+
+# TypeScript build info
+frontend/tsconfig.tsbuildinfo
+
+# Markdown docs that are one-off notes
+backend/expansion_plan.md
+
+# SQL one-off scripts
+backend/create_*.sql
+
+# Remaining root-level one-off scripts missed by patterns
+direct_db_check.py
+
+# Backend duplicate/fixed scripts
+backend/src/jobs/automated_update_system_fixed.py
+backend/src/integrate_legal_bench.py
+backend/src/integrate_legal_bench_fixed.py
+backend/src/jobs/test_automated_system.py
+backend/src/scrapers/legal_bench_scraper_debug.py
+backend/src/scrapers/test_domain_expansion.py
+
+# Frontend debug pages
+frontend/src/pages/debug-*.tsx
+frontend/src/pages/test-*.tsx 

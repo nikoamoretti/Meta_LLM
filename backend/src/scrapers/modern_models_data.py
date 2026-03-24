@@ -63,6 +63,46 @@ MODERN_MODELS = {
     },
     
     # Anthropic Models - May 2025
+    "claude-4-opus": {
+        "aliases": ["Claude 4 Opus", "claude-opus-4"],
+        "release_date": "2025-05",
+        "benchmarks": {
+            "mmlu": 89.2,
+            "humaneval": 94.1,
+            "mbpp": 91.8,
+            "swe_bench": 72.5,
+            "apps": 88.3,
+            "arc_challenge": 97.1,
+            "hellaswag": 96.2,
+            "truthfulqa": 87.4,
+            "gsm8k": 97.8,
+            "elo_rating": 1389,
+            "mt_bench": 9.7
+        },
+        "context_length": 200000,
+        "provider": "Anthropic"
+    },
+    
+    "claude-4-sonnet": {
+        "aliases": ["Claude 4 Sonnet", "claude-sonnet-4"],
+        "release_date": "2025-05", 
+        "benchmarks": {
+            "mmlu": 88.7,
+            "humaneval": 93.2,
+            "mbpp": 90.5,
+            "swe_bench": 72.7,
+            "apps": 87.1,
+            "arc_challenge": 96.8,
+            "hellaswag": 95.9,
+            "truthfulqa": 86.9,
+            "gsm8k": 97.1,
+            "elo_rating": 1365,
+            "mt_bench": 9.5
+        },
+        "context_length": 200000,
+        "provider": "Anthropic"
+    },
+    
     "claude-3-opus": {
         "aliases": ["claude-3-opus-20240229"],
         "release_date": "2024-03",
@@ -324,10 +364,12 @@ DOMAIN_LEADERS = {
         "gpt-4o": {"finqa": 88.3, "financial_sentiment": 91.8}
     },
     "code": {
-        "o3": {"humaneval": 95.8, "mbpp": 94.2, "apps": 89.7},
-        "claude-3.5-sonnet": {"humaneval": 91.7, "mbpp": 89.8, "apps": 85.3},
-        "deepseek-coder-v2": {"humaneval": 90.2, "mbpp": 89.4, "apps": 84.3},
-        "gpt-4o": {"humaneval": 90.2, "mbpp": 88.7, "apps": 83.5}
+        "o3": {"humaneval": 95.8, "mbpp": 94.2, "apps": 89.7, "swe_bench": 73.2},
+        "claude-4-opus": {"humaneval": 94.1, "mbpp": 91.8, "apps": 88.3, "swe_bench": 72.5},
+        "claude-4-sonnet": {"humaneval": 93.2, "mbpp": 90.5, "apps": 87.1, "swe_bench": 72.7},
+        "claude-3.5-sonnet": {"humaneval": 91.7, "mbpp": 89.8, "apps": 85.3, "swe_bench": 69.2},
+        "deepseek-coder-v2": {"humaneval": 90.2, "mbpp": 89.4, "apps": 84.3, "swe_bench": 67.8},
+        "gpt-4o": {"humaneval": 90.2, "mbpp": 88.7, "apps": 83.5, "swe_bench": 66.1}
     },
     "multilingual": {
         "gpt-4o": {"multilingual_mmlu": 88.3, "xquad": 91.7},

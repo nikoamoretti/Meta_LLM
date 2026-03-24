@@ -1,5 +1,5 @@
 from pydantic import BaseModel
-from typing import Optional, List, Dict
+from typing import Optional, List, Dict, Any
 
 class ModelScore(BaseModel):
     model: str
@@ -51,8 +51,8 @@ class ModelDetailResponse(BaseModel):
     finance: Optional[float] = None
     general: Optional[float] = None
     
-    benchmarks: List[dict]
-    history: List[dict]
+    benchmarks: List[Dict[str, Any]]
+    history: List[Dict[str, Any]]
     benchmark_count: Optional[int] = None
 
 # NEW: Normalized Scoring Models for Task 5.1
@@ -87,7 +87,7 @@ class DetailedScoreResponse(BaseModel):
     global_rank: Optional[int] = None
     
     # Individual benchmark details
-    benchmark_details: List[Dict[str, any]]  # name, raw_score, normalized_score, confidence, method
+    benchmark_details: List[Dict[str, Any]]  # name, raw_score, normalized_score, confidence, method
     
     # Category summaries
     category_summaries: Dict[str, CategoryScore]
@@ -102,9 +102,9 @@ class NormalizationStats(BaseModel):
     total_normalized_scores: int
     average_confidence: float
     confidence_range: Dict[str, float]  # min, max
-    confidence_distribution: Dict[str, any]  # high/medium/low counts and percentages
+    confidence_distribution: Dict[str, Any]  # high/medium/low counts and percentages
     normalization_methods: Dict[str, int]  # method name -> count
-    quality_indicators: Dict[str, any]
+    quality_indicators: Dict[str, Any]
 
 class ProcessingReportResponse(BaseModel):
     """Batch normalization processing report"""
@@ -155,7 +155,7 @@ class CompositeDetailResponse(BaseModel):
     profile_weights: Dict[str, float]
     
     # Methodology transparency
-    methodology: Dict[str, any]
+    methodology: Dict[str, Any]
 
 class CompositeLeaderboardResponse(BaseModel):
     """Composite leaderboard for a specific profile"""
@@ -167,13 +167,15 @@ class CompositeLeaderboardResponse(BaseModel):
 class CompositeStatistics(BaseModel):
     """Composite scoring system statistics"""
     generated_at: str
-    system_overview: Dict[str, any]
-    profile_statistics: List[Dict[str, any]]
+    system_overview: Dict[str, Any]
+    profile_statistics: List[Dict[str, Any]]
     methodology: Dict[str, str]
 
 class ProfileComparisonResponse(BaseModel):
     """Model ranking comparison across profiles"""
     total_models: int
     profiles_compared: List[str]
-    comparison: List[Dict[str, any]]  # model_name + scores per profile
-    note: str 
+    comparison: List[Dict[str, Any]]  # model_name + scores per profile
+    note: str
+    generated_at: str
+    methodology: str

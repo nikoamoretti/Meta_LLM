@@ -15,4 +15,5 @@ pytest
 pydantic
 datasets==2.14.6
 html5lib==1.1
-gradio_client==0.7.0 
+gradio_client==0.7.0
+apscheduler==3.10.4
